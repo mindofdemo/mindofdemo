@@ -27,27 +27,29 @@
             </div>
         </div> -->
 
-        <div id="taskbar" class="intrusion">
-            <div id="start" class="button extrusion">
-                <img src="icons/start.svg" id="starticon">
-            </div>
-            <div id="tasks">
-                <div id="extendedplay2task" class="taskbaritem extrusion button">
-                    <p class="taskbartext">Extended Play 2</p>
+        <div id="taskbar" class="extrusion">
+            <div id="taskbarcontainer" class="intrusion">
+                <div id="start" class="button extrusion">
+                    <img src="icons/start.svg" id="starticon">
                 </div>
-                <div id="fileexplorertask" class="taskbaritem extrusion button">
-                    <p class="taskbartext">File Explorer</p>
+                <div id="tasks">
+                    <div id="extendedplay2task" class="taskbaritem extrusion button">
+                        <p class="taskbartext">Extended Play 2</p>
+                    </div>
+                    <div id="fileexplorertask" class="taskbaritem extrusion button">
+                        <p class="taskbartext">File Explorer</p>
+                    </div>
+                    <div id="accounttask" class="taskbaritem extrusion button">
+                        <p class="taskbartext">Account</p>
+                    </div>
+                    <div id="settingstask" class="taskbaritem extrusion button">
+                        <p class="taskbartext">Settings</p>
+                    </div>
                 </div>
-                <div id="accounttask" class="taskbaritem extrusion button">
-                    <p class="taskbartext">Account</p>
+                
+                <div id="clock" class="button extrusion">
+                    <p id="time">11:11 PM</p>
                 </div>
-                <div id="settingstask" class="taskbaritem extrusion button">
-                    <p class="taskbartext">Settings</p>
-                </div>
-            </div>
-            
-            <div id="clock" class="button extrusion">
-                <p id="time">11:11 PM</p>
             </div>
         </div>
 
@@ -161,7 +163,7 @@
                         <div id="back_landscapeoftheabandoned" class="fileexplorerback extrusion button">
                             <img src="icons/back.svg" class="windowbuttonicon">
                         </div>
-                        <div id="fileexplorerpath" class="intrusion">
+                        <div id="fileexplorerpath">
                             <h3 id="fileexplorerpathtext">path</h3>
                         </div>
                     </div>
@@ -339,49 +341,56 @@
 
                         
                         <div id="fileexplorer-full" class="fileexplorerwindowitem fileexplorerwindowfull">
-                            <img src="drive/documents/art/drawing/cubism-study-5.jpg" id="cubismstudy5-full" class="imagefull">
-                            <img src="drive/documents/art/drawing/cubism-study-6.jpg" id="cubismstudy6-full" class="imagefull">
-                            <img src="drive/documents/art/drawing/cubism-study-7.jpg" id="cubismstudy7-full" class="imagefull">
-                            <img src="drive/documents/art/drawing/dysphoria.jpg" id="dysphoria-full" class="imagefull">
-                            <img src="drive/documents/art/drawing/multimedia-value-study-4.jpg" id="multimediavaluestudy4-full" class="imagefull">
-                            <img src="drive/documents/art/drawing/self-portrait-sketch-3.jpg" id="selfportraitsketch3-full" class="imagefull">
-                            <img src="drive/documents/art/drawing/skeleton.jpg" id="skeleton-full" class="imagefull">
+                            <div id="fileexplorer-full-content">
+                                <img src="drive/documents/art/drawing/cubism-study-5.jpg" id="cubismstudy5-full" class="imagefull">
+                                <img src="drive/documents/art/drawing/cubism-study-6.jpg" id="cubismstudy6-full" class="imagefull">
+                                <img src="drive/documents/art/drawing/cubism-study-7.jpg" id="cubismstudy7-full" class="imagefull">
+                                <img src="drive/documents/art/drawing/dysphoria.jpg" id="dysphoria-full" class="imagefull">
+                                <img src="drive/documents/art/drawing/multimedia-value-study-4.jpg" id="multimediavaluestudy4-full" class="imagefull">
+                                <img src="drive/documents/art/drawing/self-portrait-sketch-3.jpg" id="selfportraitsketch3-full" class="imagefull">
+                                <img src="drive/documents/art/drawing/skeleton.jpg" id="skeleton-full" class="imagefull">
 
-                            <img src="drive/documents/art/painting/apple.jpg" id="apple-full" class="imagefull">
-                            <img src="drive/documents/art/painting/ari.jpg" id="ari-full" class="imagefull">
-                            <img src="drive/documents/art/painting/chateau-impney.jpg" id="chateauimpney-full" class="imagefull">
-                            <img src="drive/documents/art/painting/cubism.jpg" id="cubism-full" class="imagefull">
-                            <img src="drive/documents/art/painting/dream-of-a-chair-in-a-yard.jpg" id="dreamofachairinayard-full" class="imagefull">
-                            <img src="drive/documents/art/painting/figure-study-1.jpg" id="figurestudy1-full" class="imagefull">
-                            <img src="drive/documents/art/painting/figure-study-2.jpg" id="figurestudy2-full" class="imagefull">
-                            <img src="drive/documents/art/painting/figure-study-3.jpg" id="figurestudy3-full" class="imagefull">
-                            <img src="drive/documents/art/painting/landscape-study-4.jpg" id="landscapestudy4-full" class="imagefull">
-                            <img src="drive/documents/art/painting/neo-goth.jpg" id="neogoth-full" class="imagefull">
+                                <img src="drive/documents/art/painting/apple.jpg" id="apple-full" class="imagefull">
+                                <img src="drive/documents/art/painting/ari.jpg" id="ari-full" class="imagefull">
+                                <img src="drive/documents/art/painting/chateau-impney.jpg" id="chateauimpney-full" class="imagefull">
+                                <img src="drive/documents/art/painting/cubism.jpg" id="cubism-full" class="imagefull">
+                                <img src="drive/documents/art/painting/dream-of-a-chair-in-a-yard.jpg" id="dreamofachairinayard-full" class="imagefull">
+                                <img src="drive/documents/art/painting/figure-study-1.jpg" id="figurestudy1-full" class="imagefull">
+                                <img src="drive/documents/art/painting/figure-study-2.jpg" id="figurestudy2-full" class="imagefull">
+                                <img src="drive/documents/art/painting/figure-study-3.jpg" id="figurestudy3-full" class="imagefull">
+                                <img src="drive/documents/art/painting/landscape-study-4.jpg" id="landscapestudy4-full" class="imagefull">
+                                <img src="drive/documents/art/painting/neo-goth.jpg" id="neogoth-full" class="imagefull">
 
 
-                            <div id="apolloflamebistro-creativebrief-full" class="imagefull">
-                                <embed src="drive/documents/branding/apollo-flame-bistro/creative-brief.pdf" type="application/pdf" class="embedfull" />
+                                <div id="apolloflamebistro-creativebrief-full" class="imagefull">
+                                    <embed src="drive/documents/branding/apollo-flame-bistro/creative-brief.pdf" type="application/pdf" class="embedfull" />
+                                </div>
+                                <img src="drive/documents/branding/apollo-flame-bistro/logo.jpg" id="apolloflamebistro-logo-full" class="imagefull">
+                                <img src="drive/documents/branding/apollo-flame-bistro/logotype.jpg" id="apolloflamebistro-logotype-full" class="imagefull">
+                                <div id="apolloflamebistro-menu-full" class="imagefull">
+                                    <embed src="drive/documents/branding/apollo-flame-bistro/menu.pdf" type="application/pdf" class="embedfull" />
+                                </div>
+                                <img src="drive/documents/branding/apollo-flame-bistro/pizza-box.jpg" id="apolloflamebistro-pizzabox-full" class="imagefull">
+                                <img src="drive/documents/branding/apollo-flame-bistro/business-card.jpg" id="apolloflamebistro-businesscard-full" class="imagefull">
+                                <div id="apolloflamebistro-finalpresentation-full" class="imagefull">
+                                    <embed src="drive/documents/branding/apollo-flame-bistro/final-presentation.pdf?#zoom=50" type="application/pdf" class="embedfull" />
+                                </div>
+
+                                <div id="corbelgames-brandkit-full" class="imagefull">
+                                    <embed src="drive/documents/branding/corbel-games/brand-kit.pdf" type="application/pdf" class="embedfull" />
+                                </div>
+
+
+                                <div id="landscapeoftheabandoned-website-full" class="imagefull">
+                                    <embed src="drive/documents/interaction/landscape-of-the-abandoned/website/landscape-of-the-abandoned.html" id="landscapeoftheabandoned-website-full-embed" class="embedfull">
+                                </div>
                             </div>
-                            <img src="drive/documents/branding/apollo-flame-bistro/logo.jpg" id="apolloflamebistro-logo-full" class="imagefull">
-                            <img src="drive/documents/branding/apollo-flame-bistro/logotype.jpg" id="apolloflamebistro-logotype-full" class="imagefull">
-                            <div id="apolloflamebistro-menu-full" class="imagefull">
-                                <embed src="drive/documents/branding/apollo-flame-bistro/menu.pdf" type="application/pdf" class="embedfull" />
-                            </div>
-                            <img src="drive/documents/branding/apollo-flame-bistro/pizza-box.jpg" id="apolloflamebistro-pizzabox-full" class="imagefull">
-                            <img src="drive/documents/branding/apollo-flame-bistro/business-card.jpg" id="apolloflamebistro-businesscard-full" class="imagefull">
-                            <div id="apolloflamebistro-finalpresentation-full" class="imagefull">
-                                <embed src="drive/documents/branding/apollo-flame-bistro/final-presentation.pdf?#zoom=50" type="application/pdf" class="embedfull" />
+                            <div id="fileexplorer-full-details" class="extrusion">
+                                <div class="detailentry intrusion">
+                                    <p>test</p>
+                                </div>
                             </div>
 
-                            <div id="corbelgames-brandkit-full" class="imagefull">
-                                <embed src="drive/documents/branding/corbel-games/brand-kit.pdf" type="application/pdf" class="embedfull" />
-                            </div>
-
-
-                            <div id="landscapeoftheabandoned-website-full" class="imagefull">
-                                <embed src="drive/documents/interaction/landscape-of-the-abandoned/website/landscape-of-the-abandoned.html" id="landscapeoftheabandoned-website-full-embed" class="embedfull">
-                            </div>
-                            
                         </div>
 
                         
@@ -735,6 +744,19 @@
                         backgroundColor: "lightgrey",
                     })
                     $(".closewindow").removeClass("intrusion");
+                });
+
+                $(".minimizewindow").mousedown(function() {
+                    $(this).css({
+                        backgroundColor: "#33ffcc",
+                    })
+                    $(".minimizewindow").addClass("intrusion");
+                });
+                $(".minimizewindow").mouseup(function() {
+                    $(this).css({
+                        backgroundColor: "lightgrey",
+                    })
+                    $(".minimizewindow").removeClass("intrusion");
                 });
 
 

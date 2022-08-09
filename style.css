@@ -54,12 +54,12 @@ p {
     background-color: #33ffcc;
 }
 .extrusion {
-    box-shadow: inset -.5vh -.5vh 0 rgba(170,170,170,1),
-                inset .5vh .5vh 0 rgba(240,240,240,1);
+    box-shadow: inset -.5vh -.5vh 0 #969696,
+                inset .5vh .5vh 0 #e6e6e6;
 }
 .intrusion {
-    box-shadow: inset -.5vh -.5vh 0 rgba(240,240,240,1),
-                inset .5vh .5vh 0 rgba(170,170,170,1);
+    box-shadow: inset -.5vh -.5vh 0 #e6e6e6,
+                inset .5vh .5vh 0 #969696;
 }
 .startmenuitem {
     width: 24vh;
@@ -70,7 +70,7 @@ p {
 
 #loginscreen {
     position:fixed;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 100vw;
     height: 100vh;
     text-align: center;
@@ -85,21 +85,21 @@ p {
 
 }
 #username {
-    background-color: white;
+    background-color: #f4f4f4;
     width: 20vh;
     height: 4vh;
     margin: 10vh auto 0 auto;
     padding-top: 1vh;
 }
 #password {
-    background-color: white;
+    background-color: #f4f4f4;
     width: 20vh;
     height: 4vh;
     margin: 2vh auto 0 auto;
     padding-top: 1vh;
 }
 #login {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 20vh;
     height: 4vh;
     margin: 2vh auto 0 auto;
@@ -107,11 +107,20 @@ p {
 }
 
 #taskbar {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 100vw;
+    height: 8vh;
+    position: fixed;
+    bottom: 0vh;
+    /* display: none; */
+}
+#taskbarcontainer {
+    background-color: #c8c8c8;
+    width: calc(100% - 2vh);
     height: 6vh;
     position: fixed;
     bottom: 0vh;
+    margin: 1vh;
     /* display: none; */
 }
 #tasks {
@@ -133,12 +142,12 @@ p {
     padding: 1.25vh 1.5vh;
 }
 #start {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 5vh;
     height: 5vh;
     position: fixed;
-    left: .5vh;
-    bottom: .5vh;
+    left: 1.5vh;
+    bottom: 1.5vh;
 }
 #starticon {
     width: 3.5vh;
@@ -148,16 +157,16 @@ p {
 
 #startmenu {
     z-index: 99999;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 30.5vh;
     height: 41vh;
     position: absolute;
-    bottom: 6vh;
+    bottom: 8vh;
     display: none;
 }
 #mainmenu {
     padding: .5vh .5vh .5vh 0vh;
-    /* background-color: lightgrey;
+    /* background-color: #c8c8c8;
     width: 30vh;
     height: 40vh;
     padding: .5vh;
@@ -177,8 +186,11 @@ p {
     left: .5vh; */
     z-index: 99999;
 }
+#systemname h1 {
+    margin-bottom: 2vh;
+}
 .submenu {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 24vh;
     position:absolute;
     left: 30vh;
@@ -199,19 +211,19 @@ p {
 }
 
 #clock {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 12vh;
     height: 5vh;
     position: fixed;
-    bottom: .5vh;
-    right: .5vh;
+    bottom: 1.5vh;
+    right: 1.5vh;
 }
 #time {
     margin-top: 1.5vh;
     text-align: center;
 }
 #clockmenu {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 30vh;
     height: 40vh;
     position: absolute;
@@ -228,16 +240,19 @@ p {
 
 
 .window {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 100vw;
-    height: 94vh;
+    height: 92vh;
     position: absolute;
+    /* border-bottom: .5vh #c8c8c8; */
 }
 .titlebar {
     background-color: #33ffcc;
-    width: 100vw;
+    width: calc(100vw - 2vh);
     height: 5vh;
     position: absolute;
+    top: 1vh;
+    left: 1vh;
 }
 .windowtitle {
     height: 4vh;
@@ -247,7 +262,7 @@ p {
     left: .5vh;
 }
 .minimizewindow {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 4vh;
     height: 4vh;
     position: absolute;
@@ -255,7 +270,7 @@ p {
     right: 4.5vh;
 }
 .closewindow {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 4vh;
     height: 4vh;
     position: absolute;
@@ -270,11 +285,11 @@ p {
 }
 .windowcontentarea {
     width: calc(100vw - 2vh);
-    height: 87.5vh;
-    background-color: white;
+    height: 84.5vh;
+    background-color: #f4f4f4;
     position: absolute;
     left: 1vh;
-    top: 5.5vh;
+    top: 6.5vh;
 }
 #mainwindow {
     display: none;
@@ -286,7 +301,7 @@ p {
 
 #extendedplay2 {
     width: calc(100vw - 2vh);
-    height: 87.5vh;
+    height: 86.5vh;
 }
 #branding {
     display: none;
@@ -297,16 +312,16 @@ p {
 #fileexplorer {
     width: 100%;
     height: 100%;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
 }
 #fileexplorertitlebar {
     width: 100%;
     height: 5vh;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
 }
 .fileexplorerback {
     display: none;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 4vh;
     height: 4vh;
     position: relative;
@@ -314,15 +329,15 @@ p {
     margin: .5vh 0vh 0vh .5vh;
 }
 #fileexplorerpath {
-    background-color: white;
+    background-color: #f4f4f4;
     position: relative;
     float: left;
     height: 4vh;
-    width: calc(100% - 4.5vh);
+    width: calc(100% - 5vh);
     margin: .5vh 0vh 0vh 0vh;
 }
 #fileexplorercontentarea {
-    background-color: white;
+    background-color: #f4f4f4;
     height: calc(100% - 5.5vh);
     margin-top: .5vh;
 }
@@ -367,10 +382,16 @@ p {
     display: grid;
     position: relative;
 }
+#fileexplorer-full-content {
+    position: relative;
+    display: grid;
+    width: 70%;
+    height: 100%;
+}
 .imagefull {
     display: none;
     max-width: calc(100vw - 3vh);
-    max-height: 81vh;
+    max-height: 78vh;
     margin: .5vh auto .5vh auto;
 }
 .embedfull {
@@ -378,11 +399,26 @@ p {
     height: 81vh;
     width: calc(100vw - 3vh);
 }
+#fileexplorer-full-details {
+    background-color: #c8c8c8;
+    position: absolute;
+    top: .5vh;
+    right: .5vh;
+    /* display: grid; */
+    width: 30%;
+    height: calc(100% - 1vh);
+}
+.detailentry {
+    /* width: 90%; */
+    margin: 1vh 1vh .5vh 1vh;
+    padding: 1vh;
+    background-color: #f4f4f4;
+}
 
 
 
 #account {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     position: relative;
     width: calc(100vw - 2vh);
     height: 87.5vh;
@@ -412,7 +448,7 @@ p {
     padding: 1vh;
 }
 .accountentry {
-    background-color: white;
+    background-color: #f4f4f4;
     padding: 1vh;
     text-align: left;
 }
@@ -434,7 +470,7 @@ a:hover {
     margin: 0 auto 0 auto;
 }
 #resume {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     position: relative;
     width: calc(100vw - 2vh);
     height: 87.5vh;
@@ -443,10 +479,10 @@ a:hover {
 #resumetitlebar {
     width: 100%;
     height: 5vh;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
 }
 .accountback {
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     width: 4vh;
     height: 4vh;
     position: relative;
@@ -454,7 +490,7 @@ a:hover {
     margin: .5vh 0vh 0vh .5vh;
 }
 #accountpath {
-    background-color: white;
+    background-color: #f4f4f4;
     position: relative;
     float: left;
     height: 4vh;
@@ -462,7 +498,7 @@ a:hover {
     margin: .5vh 0vh 0vh 0vh;
 }
 #resumecontentarea {
-    background-color: white;
+    background-color: #f4f4f4;
     height: calc(100% - 5.5vh);
     margin-top: .5vh;
     display: grid;
@@ -472,7 +508,7 @@ a:hover {
 
 #error {
     display: none;
-    background-color: lightgrey;
+    background-color: #c8c8c8;
     position: fixed;
     width: 30vw;
     height: 20vh;
