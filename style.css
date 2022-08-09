@@ -300,8 +300,9 @@ p {
 
 
 #extendedplay2 {
-    width: calc(100vw - 2vh);
-    height: 86.5vh;
+    width: calc(100vw - 3vh);
+    height: 83.5vh;
+    margin: .5vh 0vh 0vh .5vh;
 }
 #branding {
     display: none;
@@ -339,6 +340,7 @@ p {
 #fileexplorercontentarea {
     background-color: #f4f4f4;
     height: calc(100% - 5.5vh);
+    /* height: 100%; */
     margin-top: .5vh;
 }
 .fileexplorerwindowitem {
@@ -381,6 +383,7 @@ p {
 .fileexplorerwindowfull {
     display: grid;
     position: relative;
+    height: 100%;
 }
 #fileexplorer-full-content {
     position: relative;
@@ -390,14 +393,14 @@ p {
 }
 .imagefull {
     display: none;
-    max-width: calc(100vw - 3vh);
+    max-width: calc(100% - 1vh);
     max-height: 78vh;
-    margin: .5vh auto .5vh auto;
+    margin: auto;
 }
 .embedfull {
     /* display: flex; */
-    height: 81vh;
-    width: calc(100vw - 3vh);
+    height: 78vh;
+    width: calc(70vw - 3vh);
 }
 #fileexplorer-full-details {
     background-color: #c8c8c8;
