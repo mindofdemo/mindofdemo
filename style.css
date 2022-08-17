@@ -70,7 +70,7 @@ p {
 
 #loginscreen {
     position:fixed;
-    z-index: 99999;
+    z-index: 88888;
     background-color: #c8c8c8;
     width: 100vw;
     height: 100vh;
@@ -560,6 +560,7 @@ a:hover {
     height: 100vh;
     display: none;
     position: fixed;
+    z-index: 99999;
 }
 #logginglogo {
     /* background-image: url("images/start.png");
