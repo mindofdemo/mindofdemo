@@ -70,6 +70,7 @@ p {
 
 #loginscreen {
     position:fixed;
+    z-index: 99999;
     background-color: #c8c8c8;
     width: 100vw;
     height: 100vh;
