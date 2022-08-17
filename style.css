@@ -237,6 +237,9 @@ p {
 .selected {
     background-color: #33ffcc;
 }
+.desktopselected {
+    background-color: #f4f4f4;
+}
 
 
 .window {
@@ -413,9 +416,11 @@ p {
 }
 .detailentry {
     /* width: 90%; */
-    margin: 1vh 1vh .5vh 1vh;
+    margin: 1.5vh 1.5vh .5vh 1.5vh;
     padding: 1vh;
     background-color: #f4f4f4;
+    font-family: w95fa;
+    font-size: 2.5vh;
 }
 
 
@@ -424,7 +429,7 @@ p {
     background-color: #c8c8c8;
     position: relative;
     width: calc(100vw - 2vh);
-    height: 87.5vh;
+    height: 84.5vh;
     display: grid;
 }
 #accountgrid {
