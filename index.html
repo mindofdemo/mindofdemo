@@ -14,7 +14,7 @@
                 <img src="icons/start.png" id="logginglogopic">
             </div>
         </div>
-        <!-- <div id="loginscreen">
+        <div id="loginscreen">
             <div id="profilepicture" class="intrusion"></div>
             <div id="username" class="intrusion">
                 <p>guest_user</p>
@@ -25,7 +25,7 @@
             <div id="login" class="extrusion button">
                 <p>Log In</p>
             </div>
-        </div> -->
+        </div>
 
         <div id="desktop">
             <div id="brandingportfolio-shortcut" class="fileitem viewableitem desktopitem">
@@ -562,65 +562,65 @@
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script>
-            // $( document ).ready(function() {
-                // $("#login").click(function(){
-                //     $("#login").addClass("intrusion");
-                //     $("#login").css({
-                //         backgroundColor: "#33ffcc"
-                //     });
-                //     $("body").css({
-                //         cursor: "url(icons/loader.cur), default",
-                //     });
-                //     $("#loginscreen").delay(2000).fadeOut(0);
-                //     $("#loggingscreen").delay(2000).fadeIn(0);
-                //     $("#logginglogopic").animate({
-                //         width: "0vh",
-                //         marginLeft: "3vh",
-                //         }, 1500, function() {
-                //         // Animation complete.
-                //             $("#logginglogopic").animate({
-                //                 width: "6vh",
-                //                 marginLeft: "0vh",
-                //                 }, 1500, function() {
-                //                 // Animation complete.
-                //                     $("body").css({
-                //                         cursor: "url(icons/loader.cur), default",
-                //                     });
-                //                     $("#logginglogopic").animate({
-                //                         width: "0vh",
-                //                         marginLeft: "3vh",
-                //                         }, 1500, function() {
-                //                         // Animation complete.
-                //                             $("#logginglogopic").animate({
-                //                                 width: "6vh",
-                //                                 marginLeft: "0vh",
-                //                                 }, 1500, function() {
-                //                                 // Animation complete.
-                //                                 $("body").css({
-                //                                     cursor: "loader",
-                //                                 });
-                //                                 $("#logginglogopic").animate({
-                //                                     width: "0vh",
-                //                                     marginLeft: "3vh",
-                //                                     }, 1500, function() {
-                //                                     // Animation complete.
-                //                                         $("#logginglogopic").animate({
-                //                                             width: "6vh",
-                //                                             marginLeft: "0vh",
-                //                                             }, 1500, function() {
-                //                                             // Animation complete.
-                //                                                 $("body").css({
-                //                                                     cursor: "url(icons/cursor.cur), default",
-                //                                                 });
-                //                                                 $("#loggingscreen").fadeOut(0);
-                //                                                 $("#taskbar").fadeIn(0);
-                //                                         });
-                //                                     });
-                //                             });
-                //                     });
-                //             });
-                //     });
-                // });
+            $( document ).ready(function() {
+                $("#login").click(function(){
+                    $("#login").addClass("intrusion");
+                    $("#login").css({
+                        backgroundColor: "#33ffcc"
+                    });
+                    $("body").css({
+                        cursor: "url(icons/loader.cur), default",
+                    });
+                    $("#loginscreen").delay(2000).fadeOut(0);
+                    $("#loggingscreen").delay(2000).fadeIn(0);
+                    $("#logginglogopic").animate({
+                        width: "0vh",
+                        marginLeft: "3vh",
+                        }, 1500, function() {
+                        // Animation complete.
+                            $("#logginglogopic").animate({
+                                width: "6vh",
+                                marginLeft: "0vh",
+                                }, 1500, function() {
+                                // Animation complete.
+                                    $("body").css({
+                                        cursor: "url(icons/loader.cur), default",
+                                    });
+                                    $("#logginglogopic").animate({
+                                        width: "0vh",
+                                        marginLeft: "3vh",
+                                        }, 1500, function() {
+                                        // Animation complete.
+                                            $("#logginglogopic").animate({
+                                                width: "6vh",
+                                                marginLeft: "0vh",
+                                                }, 1500, function() {
+                                                // Animation complete.
+                                                $("body").css({
+                                                    cursor: "loader",
+                                                });
+                                                $("#logginglogopic").animate({
+                                                    width: "0vh",
+                                                    marginLeft: "3vh",
+                                                    }, 1500, function() {
+                                                    // Animation complete.
+                                                        $("#logginglogopic").animate({
+                                                            width: "6vh",
+                                                            marginLeft: "0vh",
+                                                            }, 1500, function() {
+                                                            // Animation complete.
+                                                                $("body").css({
+                                                                    cursor: "url(icons/cursor.cur), default",
+                                                                });
+                                                                $("#loggingscreen").fadeOut(0);
+                                                                $("#taskbar").fadeIn(0);
+                                                        });
+                                                    });
+                                            });
+                                    });
+                            });
+                    });
+                });
 
                 $("#start").click(function(){
                     $("#start").toggleClass("intrusion");
