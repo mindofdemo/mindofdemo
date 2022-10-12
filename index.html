@@ -47,7 +47,7 @@
         </div>
 
         <div id="desktop">
-            <div id="shortcut-branding_portfolio" class="file-item file-viewable file-desktop">
+            <div id="shortcut-branding_portfolio" class="file-item file-viewable file-desktop portfolio-item">
                 <img src="icons/pdf.svg" class="file-icon">
                 <p class="file-name">Branding Portfolio</p>
             </div>
@@ -119,8 +119,8 @@
                 <div id="documents-menu-interaction" class="start-item documents-menu-item">
                     <h2>Interaction</h2>
                 </div> -->
-                <div id="documents-menu-portfolios" class="start-item documents-menu-item">
-                    <h2>Portfolios</h2>
+                <div id="documents-menu-portfolio" class="start-item documents-menu-item">
+                    <h2>portfolio</h2>
                 </div>
                 <div id="documents-menu-projects" class="start-item documents-menu-item">
                     <h2>Projects</h2>
@@ -260,8 +260,8 @@
                             </div>
                         </div>
 
-                        <div id="portfolios" class="file_explorer-content-item">
-                            <div id="branding_portfolio" class="file-item file-viewable portfolioitem">
+                        <div id="portfolio" class="file_explorer-content-item">
+                            <div id="branding_portfolio" class="file-item file-viewable portfolio-item">
                                 <img src="icons/pdf.svg" class="file-icon">
                                 <p class="file-name">Branding Portfolio</p>
                             </div>
@@ -733,7 +733,7 @@
                             <div id="file_explorer-full-content">
                                 
                                 <div id="branding_portfolio-full" class="image-full">
-                                    <embed src="drive/documents/portfolio/branding-portfolio.pdf#toolbar=0" type="application/pdf" class="embed-full" />
+                                    <embed src="drive/documents/portfolio/branding_portfolio.pdf#toolbar=0" type="application/pdf" class="embed-full" />
                                 </div>
 
 
@@ -1184,9 +1184,9 @@
                     $("#file_explorer-back-documents").fadeIn(0);
                 });
 
-                $("#documents-menu-portfolios").click(function() {
+                $("#documents-menu-portfolio").click(function() {
                     $("#file_explorer-path").text("D:/documents/portfolio/");
-                    $("#portfolios").fadeIn(0);
+                    $("#portfolio").fadeIn(0);
                 });
                 $("#documents-menu-projects").click(function() {
                     $("#file_explorer-path").text("D:/documents/projects/");
@@ -1410,7 +1410,7 @@
                 });
                 $("#shortcut-branding_portfolio").dblclick(function() {
                     $("#branding_portfolio-full").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/portfolio/branding-portfolio.pdf");
+                    $("#file_explorer-path").text("D:/documents/portfolio/branding_portfolio.pdf");
                     $("#detail-name").text("Branding Portfolio");
                     $("#detail-project").text("Thematic Portfolio Collection");
                     $("#detail-medium").text("Document");
@@ -1434,16 +1434,6 @@
                     $("#landscape_of_the_abandoned").fadeIn(0);
                     $("#file_explorer-path").text("D:/documents/interaction/landscape-of-the-abandoned/");
                 });
-                
-
-
-                $("#publicationfolder").dblclick(function() {
-                    $("#publication").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/publication/");
-                });
-                $(".publicationitem").dblclick(function() {
-                    $("#file_explorer-back-publication").fadeIn(0);
-                });
 
                 
 
@@ -1454,7 +1444,7 @@
                     $("#portfolio").fadeIn(0);
                     $("#file_explorer-path").text("D:/documents/portfolio/");
                 });
-                $(".portfolioitem").dblclick(function() {
+                $(".portfolio-item").dblclick(function() {
                     $("#file_explorer-back-portfolio").fadeIn(0);
                 });
 
