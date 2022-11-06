@@ -14,9 +14,8 @@
                 <h3>*Disclaimer*</h3>
                 <ul>
                     <li>Site is under development</li>
-                    <li>Mobile version is incomplete</li>
                     <li>Missing some of my work</li>
-                    <li>Site is meant to be viewed in full screen on a computer</li>
+                    <li>For the best experience view site in full screen on a computer</li>
                 </ul>
                 <div id="entersite" class="button">
                     <p>Enter</p>
@@ -56,14 +55,34 @@
                 <p class="file-name">Resume</p>
             </div> -->
         </div>
+        <div id="mobile-desktop">
+            <div id="mobile-portfolio" class="desktop-item file-viewable file-desktop">
+                <img src="icons/folder.svg" class="file-icon">
+                <p class="file-name">Portfolio</p>
+            </div>
+            <div id="mobile-projects" class="desktop-item file-viewable file-desktop">
+                <img src="icons/folder.svg" class="file-icon">
+                <p class="file-name">Projects</p>
+            </div>
+            <!-- <div id="mobile-extended_play_2" class="desktop-item file-viewable file-desktop">
+                <img src="icons/next.svg" class="file-icon">
+                <p class="file-name">Extended Play 2</p>
+            </div> -->
+            <div id="mobile-account" class="desktop-item file-viewable file-desktop">
+                <img src="icons/pdf.svg" class="file-icon">
+                <p class="file-name">Account</p>
+            </div>
+        </div>
 
         <div id="taskbar" class="extrusion">
-            <div id="taskbarcontainer" class="intrusion">
+            <div id="start-container" class="intrusion">
                 <div id="start" class="button extrusion">
                     <img src="icons/start.svg" id="start-icon">
                 </div>
-                <div id="tasks">
-                    <div id="task-extendedplay2" class="task extrusion button">
+            </div>
+            <div id="task-container" class="intrusion">
+                <!-- <div id="tasks"> -->
+                    <div id="task-extended_play_2" class="task extrusion button">
                         <p class="task-name">Extended Play 2</p>
                     </div>
                     <div id="task-file_explorer" class="task extrusion button">
@@ -75,8 +94,9 @@
                     <div id="task-settings" class="task extrusion button">
                         <p class="task-name">Settings</p>
                     </div>
-                </div>
-                
+                <!-- </div> -->
+            </div>
+            <div id="clock-container" class="intrusion">
                 <div id="clock" class="button extrusion">
                     <p id="time">11:11 PM</p>
                 </div>
@@ -105,7 +125,7 @@
                 </div>
             </div>
             <div id="games-menu" class="start-submenu extrusion">
-                <div id="games-menu-extendedplay2" class="start-item">
+                <div id="games-menu-extended_play_2" class="start-item">
                     <h2>Extended Play 2</h2>
                 </div>
             </div>
@@ -120,7 +140,7 @@
                     <h2>Interaction</h2>
                 </div> -->
                 <div id="documents-menu-portfolio" class="start-item documents-menu-item">
-                    <h2>portfolio</h2>
+                    <h2>Portfolio</h2>
                 </div>
                 <div id="documents-menu-projects" class="start-item documents-menu-item">
                     <h2>Projects</h2>
@@ -147,7 +167,7 @@
                 <div id="window-minimize" class="window-button extrusion button">
                     <img src="icons/minimize.svg" class="window-button-icon">
                 </div>
-                <div id="window-close-extendedplay2" class="window-button window-close extrusion button">
+                <div id="window-close-extended_play_2" class="window-button window-close extrusion button">
                     <img src="icons/end.svg" class="window-button-icon">
                 </div>
                 <div id="window-close-file_explorer" class="window-button window-close extrusion button">
@@ -161,7 +181,7 @@
                 </div>
             </div>
             <div id="window-content" class="intrusion">
-                <embed src="drive/games/extended-play-2/extended-play-2.html" id="extendedplay2" class="window-content-item">
+                <embed src="drive/games/extended-play-2/extended-play-2.html" id="extended_play_2" class="window-content-item">
 
                 <div id="file_explorer" class="window-content-item">
                     <div id="file_explorer-titlebar" class="intrusion">
@@ -189,18 +209,9 @@
                         <div id="file_explorer-back-2019" class="file_explorer-back extrusion button">
                             <img src="icons/back.svg" class="window-button-icon">
                         </div>
-                            <div id="file_explorer-back-universal_interpretations" class="file_explorer-back extrusion button">
-                                <img src="icons/back.svg" class="window-button-icon">
-                            </div>
-                            <div id="file_explorer-back-waveform" class="file_explorer-back extrusion button">
-                                <img src="icons/back.svg" class="window-button-icon">
-                            </div>
                         <div id="file_explorer-back-2020" class="file_explorer-back extrusion button">
                             <img src="icons/back.svg" class="window-button-icon">
                         </div>
-                            <div id="file_explorer-back-destroy_the_icon" class="file_explorer-back extrusion button">
-                                <img src="icons/back.svg" class="window-button-icon">
-                            </div>
                         <div id="file_explorer-back-2021" class="file_explorer-back extrusion button">
                             <img src="icons/back.svg" class="window-button-icon">
                         </div>
@@ -213,83 +224,67 @@
                             <div id="file_explorer-back-corbel_games" class="file_explorer-back extrusion button">
                                 <img src="icons/back.svg" class="window-button-icon">
                             </div>
-                        
 
-                        <!-- <div id="file_explorer-back-art" class="file_explorer-back extrusion button">
-                            <img src="icons/back.svg" class="window-button-icon">
-                        </div>
-                        <div id="file_explorer-back-drawing" class="file_explorer-back extrusion button">
-                            <img src="icons/back.svg" class="window-button-icon">
-                        </div>
-                        <div id="file_explorer-back-painting" class="file_explorer-back extrusion button">
-                            <img src="icons/back.svg" class="window-button-icon">
-                        </div>
-                        <div id="file_explorer-back-branding" class="file_explorer-back extrusion button">
-                            <img src="icons/back.svg" class="window-button-icon">
-                        </div>
-                        <div id="file_explorer-back-interaction" class="file_explorer-back extrusion button">
-                            <img src="icons/back.svg" class="window-button-icon">
-                        </div>
-                        <div id="file_explorer-back-landscape_of_the_abandoned" class="file_explorer-back extrusion button">
-                            <img src="icons/back.svg" class="window-button-icon">
-                        </div> -->
-
-                        
-                        <!-- <div id="file_explorerpath">
-                            <h3 id="file_explorer-path">path</h3>
-                        </div> -->
                         <h3 id="file_explorer-path">path</h3>
                     </div>
                     
                     <div id="file_explorer-content" class="intrusion">
                         <div id="drive" class="file_explorer-content-item">
-                            <div id="folder-documents" class="file-item drive-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">Documents</p>
+                            <div class="file_explorer-content-scroll">
+                                <div id="folder-documents" class="file-item drive-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">Documents</p>
+                                </div>
                             </div>
                         </div>
 
                         <div id="documents" class="file_explorer-content-item">
-                            <div id="folder-portfolio" class="file-item documents-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">Portfolio</p>
-                            </div>
-                            <div id="folder-projects" class="file-item documents-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">Projects</p>
+                            <div class="file_explorer-content-scroll">
+                                <div id="folder-portfolio" class="file-item documents-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">Portfolio</p>
+                                </div>
+                                <div id="folder-projects" class="file-item documents-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">Projects</p>
+                                </div>
                             </div>
                         </div>
 
                         <div id="portfolio" class="file_explorer-content-item">
-                            <div id="branding_portfolio" class="file-item file-viewable portfolio-item">
-                                <img src="icons/pdf.svg" class="file-icon">
-                                <p class="file-name">Branding Portfolio</p>
+                            <div class="file_explorer-content-scroll">
+                                <div id="branding_portfolio" class="file-item file-viewable portfolio-item">
+                                    <img src="icons/pdf.svg" class="file-icon">
+                                    <p class="file-name">Branding Portfolio</p>
+                                </div>
                             </div>
                         </div>
                         <div id="projects" class="file_explorer-content-item">
-                            <div id="folder-2017" class="file-item projects-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">2017</p>
-                            </div>
-                            <div id="folder-2018" class="file-item projects-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">2018</p>
-                            </div>
-                            <div id="folder-2019" class="file-item projects-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">2019</p>
-                            </div>
-                            <div id="folder-2020" class="file-item projects-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">2020</p>
-                            </div>
-                            <div id="folder-2021" class="file-item projects-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">2021</p>
-                            </div>
-                            <div id="folder-2022" class="file-item projects-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">2022</p>
+                            <div class="file_explorer-content-scroll">
+                                <div id="folder-2017" class="file-item projects-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">2017</p>
+                                </div>
+                                <div id="folder-2018" class="file-item projects-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">2018</p>
+                                </div>
+                                <div id="folder-2019" class="file-item projects-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">2019</p>
+                                </div>
+                                <div id="folder-2020" class="file-item projects-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">2020</p>
+                                </div>
+                                <div id="folder-2021" class="file-item projects-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">2021</p>
+                                </div>
+                                <div id="folder-2022" class="file-item projects-item">
+                                    <img src="icons/folder.svg" class="file-icon">
+                                    <p class="file-name">2022</p>
+                                </div>
                             </div>
                         </div>
 
@@ -403,41 +398,43 @@
                         </div>
 
                         <div id="2018" class="file_explorer-content-item">
-                            <div id="cave_in_the_hills" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/cave_in_the_hills.jpg" class="file-thumbnail">
-                                <p class="file-name">Cave In The Hills</p>
-                            </div>
-                            <div id="chateau_impney" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/chateau_impney.jpg" class="file-thumbnail">
-                                <p class="file-name">Chateau Impney</p>
-                            </div>
-                            <div id="forbidden_fruit" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/forbidden_fruit.jpg" class="file-thumbnail">
-                                <p class="file-name">Forbidden Fruit</p>
-                            </div>
-                            <div id="medusa" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/medusa.jpg" class="file-thumbnail">
-                                <p class="file-name">Medusa</p>
-                            </div>
-                            <div id="mr_dexter" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/mr_dexter.jpg" class="file-thumbnail">
-                                <p class="file-name">Mr Dexter</p>
-                            </div>
-                            <div id="strelitzia" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/strelitzia.jpg" class="file-thumbnail">
-                                <p class="file-name">Strelitzia</p>
-                            </div>
-                            <div id="strelitzia_sweatshirt" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/strelitzia_sweatshirt.png" class="file-thumbnail">
-                                <p class="file-name">Strelitzia Sweatshirt</p>
-                            </div>
-                            <div id="ufos_over_milwaukee" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/ufos_over_milwaukee.jpg" class="file-thumbnail">
-                                <p class="file-name">UFOs Over Milwaukee</p>
-                            </div>
-                            <div id="vintage_flower" class="file-item file-viewable 2018-item">
-                                <img src="drive/documents/projects/2018/vintage_flower.jpg" class="file-thumbnail">
-                                <p class="file-name">Vintage Flower</p>
+                            <div class="file_explorer-content-scroll">
+                                <div id="cave_in_the_hills" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/cave_in_the_hills.jpg" class="file-thumbnail">
+                                    <p class="file-name">Cave In The Hills</p>
+                                </div>
+                                <div id="chateau_impney" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/chateau_impney.jpg" class="file-thumbnail">
+                                    <p class="file-name">Chateau Impney</p>
+                                </div>
+                                <div id="forbidden_fruit" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/forbidden_fruit.jpg" class="file-thumbnail">
+                                    <p class="file-name">Forbidden Fruit</p>
+                                </div>
+                                <div id="medusa" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/medusa.jpg" class="file-thumbnail">
+                                    <p class="file-name">Medusa</p>
+                                </div>
+                                <div id="mr_dexter" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/mr_dexter.jpg" class="file-thumbnail">
+                                    <p class="file-name">Mr Dexter</p>
+                                </div>
+                                <div id="strelitzia" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/strelitzia.jpg" class="file-thumbnail">
+                                    <p class="file-name">Strelitzia</p>
+                                </div>
+                                <div id="strelitzia_sweatshirt" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/strelitzia_sweatshirt.png" class="file-thumbnail">
+                                    <p class="file-name">Strelitzia Sweatshirt</p>
+                                </div>
+                                <div id="ufos_over_milwaukee" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/ufos_over_milwaukee.jpg" class="file-thumbnail">
+                                    <p class="file-name">UFOs Over Milwaukee</p>
+                                </div>
+                                <div id="vintage_flower" class="file-item file-viewable 2018-item">
+                                    <img src="drive/documents/projects/2018/vintage_flower.jpg" class="file-thumbnail">
+                                    <p class="file-name">Vintage Flower</p>
+                                </div>
                             </div>
                         </div>
 
@@ -451,9 +448,17 @@
                                     <img src="drive/documents/projects/2019/dysphoria.jpg" class="file-thumbnail">
                                     <p class="file-name">Dysphoria</p>
                                 </div>
+                                <div id="film_photography" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/film_photography/film_photography_1-17.jpg" class="file-thumbnail">
+                                    <p class="file-name">Film Photography</p>
+                                </div>
                                 <div id="fly_little_one" class="file-item file-viewable 2019-item">
                                     <img src="drive/documents/projects/2019/fly_little_one.jpg" class="file-thumbnail">
                                     <p class="file-name">Fly Little One</p>
+                                </div>
+                                <div id="long_typesetting_publication" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/long_typesetting_publication/long_typesetting_publication_mockup_1.jpg" class="file-thumbnail">
+                                    <p class="file-name">Long Typesetting Publication</p>
                                 </div>
                                 <div id="lucid_dream" class="file-item file-viewable 2019-item">
                                     <img src="drive/documents/projects/2019/lucid_dream.jpg" class="file-thumbnail">
@@ -467,6 +472,10 @@
                                     <img src="drive/documents/projects/2019/multimedia_value_study_4.jpg" class="file-thumbnail">
                                     <p class="file-name">Multimedia Value Study 4</p>
                                 </div>
+                                <div id="pinhole_photography" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_1.jpg" class="file-thumbnail">
+                                    <p class="file-name">Pinhole Photography</p>
+                                </div>
                                 <div id="self_portrait_sketch_3" class="file-item file-viewable 2019-item">
                                     <img src="drive/documents/projects/2019/self_portrait_sketch_3.jpg" class="file-thumbnail">
                                     <p class="file-name">Self Portrait Sketch 3</p>
@@ -475,20 +484,24 @@
                                     <img src="drive/documents/projects/2019/skeleton.jpg" class="file-thumbnail">
                                     <p class="file-name">Skeleton</p>
                                 </div>
-                                <div id="the_connection_between_art_healing_and_public_health" class="file-item file-viewable 2019-item">
-                                    <img src="icons/pdf.svg" class="file-icon">
-                                    <p class="file-name">The Connection Between Art, Healing, and Public Health</p>
+                                <div id="textura_modern" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/textura_modern.jpg" class="file-thumbnail">
+                                    <p class="file-name">Textura Modern</p>
                                 </div>
                                 <div id="trees_trees_trees" class="file-item file-viewable 2019-item">
                                     <img src="drive/documents/projects/2019/trees_trees_trees.jpg" class="file-thumbnail">
                                     <p class="file-name">Trees! Trees! Trees!</p>
                                 </div>
-                                <div id="folder-universal_interpretations" class="file-item 2019-item">
-                                    <img src="icons/folder.svg" class="file-icon">
+                                <div id="type_specimen_poster" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/type_specimen_poster.jpg" class="file-thumbnail">
+                                    <p class="file-name">Type Specimen Poster</p>
+                                </div>
+                                <div id="universal_interpretations" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/universal_interpretations/logo.png" class="file-thumbnail">
                                     <p class="file-name">Universal Interpretations</p>
                                 </div>
-                                <div id="folder-waveform" class="file-item 2019-item">
-                                    <img src="icons/folder.svg" class="file-icon">
+                                <div id="waveform" class="file-item file-viewable 2019-item">
+                                    <img src="drive/documents/projects/2019/waveform/waveform.jpg" class="file-thumbnail">
                                     <p class="file-name">Waveform</p>
                                 </div>
                                 <div id="where_is_this_beach" class="file-item file-viewable 2019-item">
@@ -498,113 +511,62 @@
                             </div>
                         </div>
 
-                            <div id="universal_interpretations" class="file_explorer-content-item">
-                                <div id="universal_interpretations-aerospace_vacuum" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/aerospace_vacuum.jpg" class="file-thumbnail">
-                                    <p class="file-name">Aerospace Vacuum</p>
-                                </div>
-                                <div id="universal_interpretations-first_contact" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/first_contact.jpg" class="file-thumbnail">
-                                    <p class="file-name">First Contact</p>
-                                </div>
-                                <div id="universal_interpretations-first_contact_showcase" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/first_contact_showcase.jpg" class="file-thumbnail">
-                                    <p class="file-name">First Contact Showcase</p>
-                                </div>
-                                <div id="universal_interpretations-immersion" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/immersion.jpg" class="file-thumbnail">
-                                    <p class="file-name">Immersion</p>
-                                </div>
-                                <div id="universal_interpretations-immersion_advertisement" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/immersion_advertisement.jpg" class="file-thumbnail">
-                                    <p class="file-name">Immersion Advertisement</p>
-                                </div>
-                                <div id="universal_interpretations-launch_advertisement" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/launch_advertisement.jpg" class="file-thumbnail">
-                                    <p class="file-name">Launch Advertisement</p>
-                                </div>
-                                <div id="universal_interpretations-liftoff" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/liftoff.jpg" class="file-thumbnail">
-                                    <p class="file-name">Liftoff</p>
-                                </div>
-                                <div id="universal_interpretations-logo" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/logo.jpg" class="file-thumbnail">
-                                    <p class="file-name">Logo</p>
-                                </div>
-                                <div id="universal_interpretations-website" class="file-item file-viewable universal_interpretations-item">
-                                    <img src="icons/web.svg" class="file-icon">
-                                    <p class="file-name">Website</p>
-                                </div>
-                            </div>
-
-                            <div id="waveform" class="file_explorer-content-item">
-                                <div id="waveform-fission" class="file-item file-viewable waveform-item">
-                                    <img src="drive/documents/projects/2019/waveform/fission.jpg" class="file-thumbnail">
-                                    <p class="file-name">Fission</p>
-                                </div>
-                                <div id="waveform-waveform" class="file-item file-viewable waveform-item">
-                                    <img src="drive/documents/projects/2019/waveform/waveform.jpg" class="file-thumbnail">
-                                    <p class="file-name">Waveform</p>
-                                </div>
-                                <div id="waveform-waveform_alternate" class="file-item file-viewable waveform-item">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_alternate.jpg" class="file-thumbnail">
-                                    <p class="file-name">Waveform Alternate</p>
-                                </div>
-                                <div id="waveform-waveform_alternate_shirt_mockup" class="file-item file-viewable waveform-item">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_alternate_shirt_mockup.jpg" class="file-thumbnail">
-                                    <p class="file-name">Waveform Alternate Shirt Mockup</p>
-                                </div>
-                                <div id="waveform-waveform_sweatshirt_advertisement" class="file-item file-viewable waveform-item">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_sweatshirt_advertisement.jpg" class="file-thumbnail">
-                                    <p class="file-name">Waveform Sweatshirt Advertisement</p>
-                                </div>
-                                <div id="waveform-waveform_sweatshirt_mockup" class="file-item file-viewable waveform-item">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_sweatshirt_mockup.jpg" class="file-thumbnail">
-                                    <p class="file-name">Waveform Sweatshirt Mockup</p>
-                                </div>
-                            </div>
-
-
                         <div id="2020" class="file_explorer-content-item">
-                            <div id="folder-destroy_the_icon" class="file-item 2020-item">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">Destroy the Icon</p>
-                            </div>
-                            <div id="fantasy_appliance" class="file-item file-viewable 2020-item">
-                                <img src="drive/documents/projects/2020/fantasy_appliance.jpg" class="file-thumbnail">
-                                <p class="file-name">Fantasy Appliance</p>
-                            </div>
-                            <div id="singularity" class="file-item file-viewable 2020-item">
-                                <img src="drive/documents/projects/2020/singularity.jpg" class="file-thumbnail">
-                                <p class="file-name">Singularity</p>
-                            </div>
-                            <div id="sweet_biscuit_inn_rack_card" class="file-item file-viewable 2020-item">
-                                <img src="drive/documents/projects/2020/sweet_biscuit_inn_rack_card.jpg" class="file-thumbnail">
-                                <p class="file-name">Sweet Biscuit Inn Rack Card</p>
+                            <div class="file_explorer-content-scroll">
+                                <div id="clematis_viorna" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/clematis_viorna/clematis_viorna_representational_trace.jpg" class="file-thumbnail">
+                                    <p class="file-name">Clematis Viorna</p>
+                                </div>
+                                <div id="david_carson_poster" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/david_carson_poster.jpg" class="file-thumbnail">
+                                    <p class="file-name">David Carson Poster</p>
+                                </div>
+                                <div id="destroy_the_icon" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/destroy_the_icon/one_note.jpg" class="file-thumbnail">
+                                    <p class="file-name">Destroy The Icon</p>
+                                </div>
+                                <div id="fantasy_appliance" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/fantasy_appliance.jpg" class="file-thumbnail">
+                                    <p class="file-name">Fantasy Appliance</p>
+                                </div>
+                                <div id="lysol_disinfectant_infographic" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/lysol_disinfectant_infographic.jpg" class="file-thumbnail">
+                                    <p class="file-name">Lysol Disinfectant Infographic</p>
+                                </div>
+                                <div id="singularity" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/singularity.jpg" class="file-thumbnail">
+                                    <p class="file-name">Singularity</p>
+                                </div>
+                                <div id="sweet_biscuit_inn_rack_card" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/sweet_biscuit_inn_rack_card.jpg" class="file-thumbnail">
+                                    <p class="file-name">Sweet Biscuit Inn Rack Card</p>
+                                </div>
+                                <div id="texture" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/texture/texture_mockup_1.jpg" class="file-thumbnail">
+                                    <p class="file-name">Texture</p>
+                                </div>
+                                <div id="thank_you" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/thank_you/thank_you.jpg" class="file-thumbnail">
+                                    <p class="file-name">Thank You!</p>
+                                </div>
+                                <div id="the_end_of_the_world" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/the_end_of_the_world/the_end_of_the_world_mockup_1.jpg" class="file-thumbnail">
+                                    <p class="file-name">The End of The World</p>
+                                </div>
+                                <div id="warp" class="file-item file-viewable 2020-item">
+                                    <img src="drive/documents/projects/2020/warp/warp_line.jpg" class="file-thumbnail">
+                                    <p class="file-name">Warp</p>
+                                </div>
                             </div>
                         </div>
 
-                            <div id="destroy_the_icon" class="file_explorer-content-item">
-                                <div id="destroy_the_icon-ego" class="file-item file-viewable destroy_the_icon-item">
-                                    <img src="drive/documents/projects/2020/destroy_the_icon/ego.jpg" class="file-thumbnail">
-                                    <p class="file-name">Ego</p>
-                                </div>
-                                <div id="destroy_the_icon-kanye_loves_kanye" class="file-item file-viewable destroy_the_icon-item">
-                                    <img src="drive/documents/projects/2020/destroy_the_icon/kanye_loves_kanye.jpg" class="file-thumbnail">
-                                    <p class="file-name">Kanye Loves Kanye</p>
-                                </div>
-                                <div id="destroy_the_icon-one_note" class="file-item file-viewable destroy_the_icon-item">
-                                    <img src="drive/documents/projects/2020/destroy_the_icon/one_note.jpg" class="file-thumbnail">
-                                    <p class="file-name">One Note</p>
-                                </div>
-                                <div id="destroy_the_icon-sad_kanye" class="file-item file-viewable destroy_the_icon-item">
-                                    <img src="drive/documents/projects/2020/destroy_the_icon/sad_kanye.jpg" class="file-thumbnail">
-                                    <p class="file-name">Sad Kanye</p>
+                        <div id="2021" class="file_explorer-content-item">
+                            <div class="file_explorer-content-scroll">
+                                <div id="a_beautiful_dissolution" class="file-item file-viewable 2021-item">
+                                    <img src="drive/documents/projects/2021/a_beautiful_dissolution.jpg" class="file-thumbnail">
+                                    <p class="file-name">A Beautiful Dissolution</p>
                                 </div>
                             </div>
-
-                        <div id="2021" class="file_explorer-content-item">
-                            
                         </div>
 
                         <div id="2022" class="file_explorer-content-item">
@@ -712,28 +674,47 @@
                             </div>
                         </div>
 
-                        
-
-                
-                        
-
-
-                        <div id="interaction" class="file_explorer-content-item">
-                            <div id="landscape_of_the_abandonedfolder" class="file-item interactionitem">
-                                <img src="icons/folder.svg" class="file-icon">
-                                <p class="file-name">Landscape of the Abandoned</p>
-                            </div>
-                        </div>
-
-                        
-                        
 
                         
                         <div id="file_explorer-full" class="file_explorer-content-item">
                             <div id="file_explorer-full-content">
                                 
+                                <!-- <div id="branding_portfolio-full" class="image-full">
+                                    <embed src="drive/documents/portfolio/branding_portfolio.pdf#toolbar=0" type="application/pdf" class="embeded"/>
+                                </div> -->
                                 <div id="branding_portfolio-full" class="image-full">
-                                    <embed src="drive/documents/portfolio/branding_portfolio.pdf#toolbar=0" type="application/pdf" class="embed-full" />
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="branding_portfolio_1" id="branding_portfolio_1" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_2" id="branding_portfolio_2" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_3" id="branding_portfolio_3" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_4" id="branding_portfolio_4" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_5" id="branding_portfolio_5" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_6" id="branding_portfolio_6" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_7" id="branding_portfolio_7" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_8" id="branding_portfolio_8" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_9" id="branding_portfolio_9" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_10" id="branding_portfolio_10" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_11" id="branding_portfolio_11" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_12" id="branding_portfolio_12" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_13" id="branding_portfolio_13" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_14" id="branding_portfolio_14" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_15" id="branding_portfolio_15" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_16" id="branding_portfolio_16" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_17" id="branding_portfolio_17" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_18" id="branding_portfolio_18" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_19" id="branding_portfolio_19" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_20" id="branding_portfolio_20" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_21" id="branding_portfolio_21" />
+                                        <input type="radio" name="gallery" value="branding_portfolio_22" id="branding_portfolio_22" />
+                                        
+                                        <label for="branding_portfolio_1"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_1.jpg"></label><label for="branding_portfolio_2"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_2.jpg"></label><label for="branding_portfolio_3"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_3.jpg"></label><label for="branding_portfolio_4"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_4.jpg"></label><label for="branding_portfolio_5"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_5.jpg"></label><label for="branding_portfolio_6"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_6.jpg"></label><label for="branding_portfolio_7"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_7.jpg"></label><label for="branding_portfolio_8"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_8.jpg"></label><label for="branding_portfolio_9"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_9.jpg"></label><label for="branding_portfolio_10"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_10.jpg"></label><label for="branding_portfolio_11"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_11.jpg"></label><label for="branding_portfolio_12"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_12.jpg"></label><label for="branding_portfolio_13"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_13.jpg"></label><label for="branding_portfolio_14"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_14.jpg"></label><label for="branding_portfolio_15"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_15.jpg"></label><label for="branding_portfolio_16"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_16.jpg"></label><label for="branding_portfolio_17"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_17.jpg"></label><label for="branding_portfolio_18"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_18.jpg"></label><label for="branding_portfolio_19"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_19.jpg"></label><label for="branding_portfolio_20"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_20.jpg"></label><label for="branding_portfolio_21"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_21.jpg"></label><label for="branding_portfolio_22"><img src="drive/documents/portfolio/branding_portfolio/branding_portfolio_22.jpg"></label>
+                                    </form>
                                 </div>
 
 
@@ -778,49 +759,237 @@
 
                                 <img src="drive/documents/projects/2019/deliberate_deliverance.jpg" id="deliberate_deliverance-full" class="image-full">
                                 <img src="drive/documents/projects/2019/dysphoria.jpg" id="dysphoria-full" class="image-full">
+                                <div id="film_photography-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="film_photography_1-2" id="film_photography_1-2" />
+                                        <input type="radio" name="gallery" value="film_photography_1-17" id="film_photography_1-17" />
+                                        <input type="radio" name="gallery" value="film_photography_1-20" id="film_photography_1-20" />
+                                        <input type="radio" name="gallery" value="film_photography_1-21" id="film_photography_1-21" />
+                                        <input type="radio" name="gallery" value="film_photography_1-22" id="film_photography_1-22" />
+                                        <input type="radio" name="gallery" value="film_photography_2-12" id="film_photography_2-12" />
+                                        <input type="radio" name="gallery" value="film_photography_2-24-2" id="film_photography_2-24-2" />
+                                        <input type="radio" name="gallery" value="film_photography_3-2" id="film_photography_3-2" />
+                                        <input type="radio" name="gallery" value="film_photography_3-8" id="film_photography_3-8" />
+                                        <input type="radio" name="gallery" value="film_photography_3-20" id="film_photography_3-20" />
+                                        
+                
+                                        <label for="film_photography_1-2"><img src="drive/documents/projects/2019/film_photography/film_photography_1-2.jpg"></label><label for="film_photography_1-17"><img src="drive/documents/projects/2019/film_photography/film_photography_1-17.jpg"></label><label for="film_photography_1-20"><img src="drive/documents/projects/2019/film_photography/film_photography_1-20.jpg"></label><label for="film_photography_1-21"><img src="drive/documents/projects/2019/film_photography/film_photography_1-21.jpg"></label><label for="film_photography_1-22"><img src="drive/documents/projects/2019/film_photography/film_photography_1-22.jpg"></label><label for="film_photography_2-12"><img src="drive/documents/projects/2019/film_photography/film_photography_2-12.jpg"></label><label for="film_photography_2-24-2"><img src="drive/documents/projects/2019/film_photography/film_photography_2-24-2.jpg"></label><label for="film_photography_3-2"><img src="drive/documents/projects/2019/film_photography/film_photography_3-2.jpg"></label><label for="film_photography_3-8"><img src="drive/documents/projects/2019/film_photography/film_photography_3-8.jpg"></label><label for="film_photography_3-20"><img src="drive/documents/projects/2019/film_photography/film_photography_3-20.jpg"></label>
+                                    </form>
+                                </div>
                                 <img src="drive/documents/projects/2019/fly_little_one.jpg" id="fly_little_one-full" class="image-full">
+                                <div id="long_typesetting_publication-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="long_typesetting_publication_mockup_1" id="long_typesetting_publication_mockup_1" />
+                                        <input type="radio" name="gallery" value="long_typesetting_publication_mockup_2" id="long_typesetting_publication_mockup_2" />
+                                        <input type="radio" name="gallery" value="long_typesetting_publication_mockup_3" id="long_typesetting_publication_mockup_3" />
+                
+                                        <label for="long_typesetting_publication_mockup_1"><img src="drive/documents/projects/2019/long_typesetting_publication/long_typesetting_publication_mockup_1.jpg"></label><label for="long_typesetting_publication_mockup_2"><img src="drive/documents/projects/2019/long_typesetting_publication/long_typesetting_publication_mockup_2.jpg"></label><label for="long_typesetting_publication_mockup_3"><img src="drive/documents/projects/2019/long_typesetting_publication/long_typesetting_publication_mockup_3.jpg"></label>
+                                    </form>
+                                </div>
                                 <img src="drive/documents/projects/2019/lucid_dream.jpg" id="lucid_dream-full" class="image-full">
                                 <img src="drive/documents/projects/2019/move_on.jpg" id="move_on-full" class="image-full">
                                 <img src="drive/documents/projects/2019/multimedia_value_study_4.jpg" id="multimedia_value_study_4-full" class="image-full">
+                                <div id="pinhole_photography-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="pinhole_photography_1" id="pinhole_photography_1" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_2" id="pinhole_photography_2" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_3" id="pinhole_photography_3" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_4" id="pinhole_photography_4" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_5" id="pinhole_photography_5" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_6" id="pinhole_photography_6" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_7" id="pinhole_photography_7" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_8" id="pinhole_photography_8" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_9" id="pinhole_photography_9" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_10" id="pinhole_photography_10" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_11" id="pinhole_photography_11" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_12" id="pinhole_photography_12" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_13" id="pinhole_photography_13" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_14" id="pinhole_photography_14" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_15" id="pinhole_photography_15" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_16" id="pinhole_photography_16" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_17" id="pinhole_photography_17" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_18" id="pinhole_photography_18" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_19" id="pinhole_photography_19" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_20" id="pinhole_photography_20" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_21" id="pinhole_photography_21" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_22" id="pinhole_photography_22" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_23" id="pinhole_photography_23" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_24" id="pinhole_photography_24" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_25" id="pinhole_photography_25" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_26" id="pinhole_photography_26" />
+                                        <input type="radio" name="gallery" value="pinhole_photography_27" id="pinhole_photography_27" />
+                                        
+                
+                                        <label for="pinhole_photography_1"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_1.jpg"></label><label for="pinhole_photography_2"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_2.jpg"></label><label for="pinhole_photography_3"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_3.jpg"></label><label for="pinhole_photography_4"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_4.jpg"></label><label for="pinhole_photography_5"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_5.jpg"></label><label for="pinhole_photography_6"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_6.jpg"></label><label for="pinhole_photography_7"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_7.jpg"></label><label for="pinhole_photography_8"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_8.jpg"></label><label for="pinhole_photography_9"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_9.jpg"></label><label for="pinhole_photography_10"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_10.jpg"></label><label for="pinhole_photography_11"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_11.jpg"></label><label for="pinhole_photography_12"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_12.jpg"></label><label for="pinhole_photography_13"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_13.jpg"></label><label for="pinhole_photography_14"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_14.jpg"></label><label for="pinhole_photography_15"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_15.jpg"></label><label for="pinhole_photography_16"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_16.jpg"></label><label for="pinhole_photography_17"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_17.jpg"></label><label for="pinhole_photography_18"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_18.jpg"></label><label for="pinhole_photography_19"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_19.jpg"></label><label for="pinhole_photography_20"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_20.jpg"></label><label for="pinhole_photography_21"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_21.jpg"></label><label for="pinhole_photography_22"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_22.jpg"></label><label for="pinhole_photography_23"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_23.jpg"></label><label for="pinhole_photography_24"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_24.jpg"></label><label for="pinhole_photography_25"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_25.png"></label><label for="pinhole_photography_26"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_26.png"></label><label for="pinhole_photography_27"><img src="drive/documents/projects/2019/pinhole_photography/pinhole_photography_27.jpg"></label>
+                                    </form>
+                                </div>
                                 <img src="drive/documents/projects/2019/self_portrait_sketch_3.jpg" id="self_portrait_sketch_3-full" class="image-full">
                                 <img src="drive/documents/projects/2019/skeleton.jpg" id="skeleton-full" class="image-full">
-                                <div id="the_connection_between_art_healing_and_public_health-full" class="image-full">
-                                    <embed src="drive/documents/projects/2019/the_connection_between_art_healing_and_public_health.pdf" type="application/pdf" class="embed-full" />
-                                </div>
+                                <img src="drive/documents/projects/2019/textura_modern.jpg" id="textura_modern-full" class="image-full">
                                 <img src="drive/documents/projects/2019/trees_trees_trees.jpg" id="trees_trees_trees-full" class="image-full">
+                                <img src="drive/documents/projects/2019/type_specimen_poster.jpg" id="type_specimen_poster-full" class="image-full">
+                                <div id="universal_interpretations-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="universal_interpretations-logo" id="universal_interpretations-logo" />
+                                        <input type="radio" name="gallery" value="launch_advertisement" id="launch_advertisement" />
+                                        <input type="radio" name="gallery" value="first_contact" id="first_contact" />
+                                        <input type="radio" name="gallery" value="first_contact_showcase" id="first_contact_showcase" />
+                                        <input type="radio" name="gallery" value="immersion" id="immersion" />
+                                        <input type="radio" name="gallery" value="immersion_advertisement" id="immersion_advertisement" />
+                                        <input type="radio" name="gallery" value="aerospace_vacuum" id="aerospace_vacuum" />
+                                        <input type="radio" name="gallery" value="liftoff" id="liftoff" />
+                                        
+                                        <label for="universal_interpretations-logo"><img src="drive/documents/projects/2019/universal_interpretations/logo.jpg"></label><label for="launch_advertisement"><img src="drive/documents/projects/2019/universal_interpretations/launch_advertisement.jpg"></label><label for="first_contact"><img src="drive/documents/projects/2019/universal_interpretations/first_contact.jpg"></label><label for="first_contact_showcase"><img src="drive/documents/projects/2019/universal_interpretations/first_contact_showcase.jpg"></label><label for="immersion"><img src="drive/documents/projects/2019/universal_interpretations/immersion.jpg"></label><label for="immersion_advertisement"><img src="drive/documents/projects/2019/universal_interpretations/immersion_advertisement.jpg"></label><label for="aerospace_vacuum"><img src="drive/documents/projects/2019/universal_interpretations/aerospace_vacuum.jpg"></label><label for="liftoff"><img src="drive/documents/projects/2019/universal_interpretations/liftoff.jpg"></label>
+                                    </form>
+                                </div>
+                                <div id="waveform-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="waveform-logo" id="waveform-logo" />
+                                        <input type="radio" name="gallery" value="waveform_sweatshirt_advertisement" id="waveform_sweatshirt_advertisement" />
+                                        <input type="radio" name="gallery" value="waveform_sweatshirt_mockup" id="waveform_sweatshirt_mockup" />
+                                        <input type="radio" name="gallery" value="waveform_alternate" id="waveform_alternate" />
+                                        <input type="radio" name="gallery" value="waveform_alternate_shirt_mockup" id="waveform_alternate_shirt_mockup" />
+                                        <input type="radio" name="gallery" value="fission" id="fission" />
+                                        
+                
+                                        <label for="waveform-logo"><img src="drive/documents/projects/2019/waveform/waveform.jpg"></label><label for="waveform_sweatshirt_advertisement"><img src="drive/documents/projects/2019/waveform/waveform_sweatshirt_advertisement.jpg"></label><label for="waveform_sweatshirt_mockup"><img src="drive/documents/projects/2019/waveform/waveform_sweatshirt_mockup.jpg"></label><label for="waveform_alternate"><img src="drive/documents/projects/2019/waveform/waveform_alternate.jpg"></label><label for="waveform_alternate_shirt_mockup"><img src="drive/documents/projects/2019/waveform/waveform_alternate_shirt_mockup.jpg"></label><label for="fission"><img src="drive/documents/projects/2019/waveform/fission.jpg"></label>
+                                    </form>
+                                </div>
                                 <img src="drive/documents/projects/2019/where_is_this_beach.jpg" id="where_is_this_beach-full" class="image-full">
 
-                                    <img src="drive/documents/projects/2019/universal_interpretations/aerospace_vacuum.jpg" id="universal_interpretations-aerospace_vacuum-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/first_contact.jpg" id="universal_interpretations-first_contact-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/first_contact_showcase.jpg" id="universal_interpretations-first_contact_showcase-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/immersion.jpg" id="universal_interpretations-immersion-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/immersion_advertisement.jpg" id="universal_interpretations-immersion_advertisement-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/launch_advertisement.jpg" id="universal_interpretations-launch_advertisement-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/liftoff.jpg" id="universal_interpretations-liftoff-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/universal_interpretations/logo.jpg" id="universal_interpretations-logo-full" class="image-full">
-                                    <div id="universal_interpretations-website-full" class="image-full">
-                                        <embed src="https://universalint.storenvy.com/" id="universal_interpretations-website-full-embed" class="embed-full">
+
+                                <div id="clematis_viorna-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
                                     </div>
-                                    <!-- <iframe src="<WEBSITE URL>" class=""></iframe> -->
-
-                                    <img src="drive/documents/projects/2019/waveform/fission.jpg" id="waveform-fission-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/waveform/waveform.jpg" id="waveform-waveform-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_alternate.jpg" id="waveform-waveform_alternate-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_alternate_shirt_mockup.jpg" id="waveform-waveform_alternate_shirt_mockup-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_sweatshirt_advertisement.jpg" id="waveform-waveform_sweatshirt_advertisement-full" class="image-full">
-                                    <img src="drive/documents/projects/2019/waveform/waveform_sweatshirt_mockup.jpg" id="waveform-waveform_sweatshirt_mockup-full" class="image-full">
-
-
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="clematis_viorna_representational_trace" id="clematis_viorna_representational_trace" />
+                                        <input type="radio" name="gallery" value="clematis_viorna_black_and_white" id="clematis_viorna_black_and_white" />
+                                        <input type="radio" name="gallery" value="clematis_viorna_color" id="clematis_viorna_color" />
+                                        <input type="radio" name="gallery" value="clematis_viorna_pattern_1" id="clematis_viorna_pattern_1" />
+                                        <input type="radio" name="gallery" value="clematis_viorna_pattern_2" id="clematis_viorna_pattern_2" />
+                
+                                        <label for="clematis_viorna_representational_trace"><img src="drive/documents/projects/2020/clematis_viorna/clematis_viorna_representational_trace.jpg"></label><label for="clematis_viorna_black_and_white"><img src="drive/documents/projects/2020/clematis_viorna/clematis_viorna_black_and_white.jpg"></label><label for="clematis_viorna_color"><img src="drive/documents/projects/2020/clematis_viorna/clematis_viorna_color.jpg"></label><label for="clematis_viorna_pattern_1"><img src="drive/documents/projects/2020/clematis_viorna/clematis_viorna_pattern_1.jpg"></label><label for="clematis_viorna_pattern_2"><img src="drive/documents/projects/2020/clematis_viorna/clematis_viorna_pattern_2.jpg"></label>
+                                    </form>
+                                </div>
+                                <img src="drive/documents/projects/2020/david_carson_poster.jpg" id="david_carson_poster-full" class="image-full">
+                                <div id="destroy_the_icon-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="one_note" id="one_note" />
+                                        <input type="radio" name="gallery" value="ego" id="ego" />
+                                        <input type="radio" name="gallery" value="kanye_loves_kanye" id="kanye_loves_kanye" />
+                                        <input type="radio" name="gallery" value="sad_kanye" id="sad_kanye" />
+                
+                                        <label for="one_note"><img src="drive/documents/projects/2020/destroy_the_icon/one_note.jpg"></label><label for="ego"><img src="drive/documents/projects/2020/destroy_the_icon/ego.jpg"></label><label for="kanye_loves_kanye"><img src="drive/documents/projects/2020/destroy_the_icon/kanye_loves_kanye.jpg"></label><label for="sad_kanye"><img src="drive/documents/projects/2020/destroy_the_icon/sad_kanye.jpg"></label>
+                                    </form>
+                                </div>
                                 <img src="drive/documents/projects/2020/fantasy_appliance.jpg" id="fantasy_appliance-full" class="image-full">
+                                <img src="drive/documents/projects/2020/lysol_disinfectant_infographic.jpg" id="lysol_disinfectant_infographic-full" class="image-full">
                                 <img src="drive/documents/projects/2020/singularity.jpg" id="singularity-full" class="image-full">
                                 <img src="drive/documents/projects/2020/sweet_biscuit_inn_rack_card.jpg" id="sweet_biscuit_inn_rack_card-full" class="image-full">
+                                <div id="texture-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="texture_mockup_1" id="texture_mockup_1" />
+                                        <input type="radio" name="gallery" value="texture_mockup_2" id="texture_mockup_2" />
+                                        <input type="radio" name="gallery" value="texture_mockup_3" id="texture_mockup_3" />
+                
+                                        <label for="texture_mockup_1"><img src="drive/documents/projects/2020/texture/texture_mockup_1.jpg"></label><label for="texture_mockup_2"><img src="drive/documents/projects/2020/texture/texture_mockup_2.jpg"></label><label for="texture_mockup_3"><img src="drive/documents/projects/2020/texture/texture_mockup_3.jpg"></label>
+                                    </form>
+                                </div>
+                                <div id="thank_you-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="thank_you_thank_you" id="thank_you_thank_you" />
+                                        <input type="radio" name="gallery" value="climate_stories_showcase_2020" id="climate_stories_showcase_2020" />
+                                        <input type="radio" name="gallery" value="art_and_design_expo_2022" id="art_and_design_expo_2022" />
+                                        <input type="radio" name="gallery" value="appalachian_artists_collection" id="appalachian_artists_collection" />
+                
+                                        <label for="thank_you_thank_you"><img src="drive/documents/projects/2020/thank_you/thank_you.jpg"></label><label for="climate_stories_showcase_2020"><img src="drive/documents/projects/2020/thank_you/climate_stories_showcase_2022.jpg"></label><label for="art_and_design_expo_2022"><img src="drive/documents/projects/2020/thank_you/art_and_design_expo_2022.jpg"></label><label for="appalachian_artists_collection"><img src="drive/documents/projects/2020/thank_you/appalachian_artists_collection.jpg"></label>
+                                    </form>
+                                </div>
+                                <div id="the_end_of_the_world-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="the_end_of_the_world_mockup_1" id="the_end_of_the_world_mockup_1" />
+                                        <input type="radio" name="gallery" value="the_end_of_the_world_mockup_2" id="the_end_of_the_world_mockup_2" />
+                                        <input type="radio" name="gallery" value="the_end_of_the_world_mockup_3" id="the_end_of_the_world_mockup_3" />
+                
+                                        <label for="the_end_of_the_world_mockup_1"><img src="drive/documents/projects/2020/the_end_of_the_world/the_end_of_the_world_mockup_1.jpg"></label><label for="the_end_of_the_world_mockup_2"><img src="drive/documents/projects/2020/the_end_of_the_world/the_end_of_the_world_mockup_2.jpg"></label><label for="the_end_of_the_world_mockup_3"><img src="drive/documents/projects/2020/the_end_of_the_world/the_end_of_the_world_mockup_3.jpg"></label>
+                                    </form>
+                                </div>
+                                <div id="warp-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="warp_line" id="warp_line" />
+                                        <input type="radio" name="gallery" value="warp_point" id="warp_point" />
+                                        <input type="radio" name="gallery" value="warp_solid" id="warp_solid" />
+                
+                                        <label for="warp_line"><img src="drive/documents/projects/2020/warp/warp_line.jpg"></label><label for="warp_point"><img src="drive/documents/projects/2020/warp/warp_point.jpg"></label><label for="warp_solid"><img src="drive/documents/projects/2020/warp/warp_solid.jpg"></label>
+                                    </form>
+                                </div>
 
-                                <img src="drive/documents/projects/2020/destroy_the_icon/ego.jpg" id="destroy_the_icon-ego-full" class="image-full">
-                                <img src="drive/documents/projects/2020/destroy_the_icon/kanye_loves_kanye.jpg" id="destroy_the_icon-kanye_loves_kanye-full" class="image-full">
-                                <img src="drive/documents/projects/2020/destroy_the_icon/one_note.jpg" id="destroy_the_icon-one_note-full" class="image-full">
-                                <img src="drive/documents/projects/2020/destroy_the_icon/sad_kanye.jpg" id="destroy_the_icon-sad_kanye-full" class="image-full">
 
-
+                                <img src="drive/documents/projects/2021/a_beautiful_dissolution.jpg" id="a_beautiful_dissolution-full" class="image-full">
 
 
                                 <img src="drive/documents/projects/2022/apple.jpg" id="apple-full" class="image-full">
@@ -1137,7 +1306,7 @@
                     $("#games-menu").fadeOut(0);
                 });
 
-                $("#games-menu-extendedplay2").click(function() {
+                $("#games-menu-extended_play_2").click(function() {
                     $("#start").removeClass("intrusion");
                     $("#start-menu").fadeToggle(0);
                     $("#start-menu-games").removeClass("selected");
@@ -1150,14 +1319,14 @@
                     $(".window-content-item").fadeOut(0);
                     $("#window-name").text("Extended Play 2");
                     $("#window").fadeIn(0);
-                    $("#extendedplay2").fadeIn(0);
+                    $("#extended_play_2").fadeIn(0);
 
                     $(".task").removeClass("intrusion selected");
-                    $("#task-extendedplay2").fadeIn(0);
-                    $("#task-extendedplay2").addClass("intrusion selected");
+                    $("#task-extended_play_2").fadeIn(0);
+                    $("#task-extended_play_2").addClass("intrusion selected");
 
                     $(".window-close").fadeOut(0);
-                    $("#window-close-extendedplay2").fadeIn(0);
+                    $("#window-close-extended_play_2").fadeIn(0);
                 });
                 
                 
@@ -1249,11 +1418,11 @@
                     $(".window-close").fadeOut(0);
                     $("#window").fadeIn(0);
                 });
-                $("#task-extendedplay2").click(function() {
+                $("#task-extended_play_2").click(function() {
                     $(this).addClass("intrusion selected");
                     $("#window-name").text("Extended Play 2");
-                    $("#extendedplay2").fadeIn(0);
-                    $("#window-close-extendedplay2").fadeIn(0);
+                    $("#extended_play_2").fadeIn(0);
+                    $("#window-close-extended_play_2").fadeIn(0);
                 });
                 $("#task-file_explorer").click(function() {
                     $(this).addClass("intrusion selected");
@@ -1290,14 +1459,15 @@
                     $("#window").fadeOut(0);
                     $(".window-content-item").fadeOut(0);
                 });
-                $("#window-close-extendedplay2").click(function() {
-                    $("#task-extendedplay2").fadeOut(0);
-                    $("#task-extendedplay2").removeClass("selected intrusion");
-                    document.getElementById("extendedplay2").src="drive/games/extended-play-2/extended-play-2.html"   
+                $("#window-close-extended_play_2").click(function() {
+                    $("#task-extended_play_2").fadeOut(0);
+                    $("#task-extended_play_2").removeClass("selected intrusion");
+                    document.getElementById("extended_play_2").src="drive/games/extended-play-2/extended-play-2.html"   
                 });
                 $("#window-close-file_explorer").click(function() {
                     $("#task-file_explorer").fadeOut(0);
                     $("#task-file_explorer").removeClass("intrusion selected");
+                    $(".image-full").fadeOut(0);
                 });
                 $("#window-close-account").click(function() {
                     $("#task-account").fadeOut(0);
@@ -1824,6 +1994,15 @@
                     $("#detail-dimensions").text("40\" x 26\"");
                     $("#detail-description").text("The prompt for this piece was inspired by Jenny Seville figure studies. The goal was to collage various views and forms of the human body into a final composition.");
                 });
+                $("#film_photography").dblclick(function() {
+                    $("#film_photography-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/film_photography.zip");
+                    $("#detail-name").text("Film");
+                    $("#detail-project").text("Photographic Design I: Pinhole Photography");
+                    $("#detail-medium").text("35mm Film Camera / Darkroom Paper / Photograph Development Chemicals");
+                    $("#detail-dimensions").text("10\" x 8\"");
+                    $("#detail-description").text("A series of photographs taken with a 35mm camera, and developed/resized in a darkroom.");
+                });
                 $("#fly_little_one").dblclick(function() {
                     $("#fly_little_one-full").fadeIn(0);
                     $("#file_explorer-path").text("D:/documents/projects/2019/fly_little_one.jpg");
@@ -1832,6 +2011,15 @@
                     $("#detail-medium").text("Digital Collage");
                     $("#detail-dimensions").text("3000px x 3000px");
                     $("#detail-description").text("Fly little one, life is fragile and this is only the beginning.");
+                });
+                $("#long_typesetting_publication").dblclick(function() {
+                    $("#long_typesetting_publication-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/long_typesetting_publication.zip");
+                    $("#detail-name").text("The Connection Between Art, Healing, and Public Health");
+                    $("#detail-project").text("Typography I: Long Typesetting Publication");
+                    $("#detail-medium").text("Document");
+                    $("#detail-dimensions").text("5.5\" x 8.5\"");
+                    $("#detail-description").text("In this project I found an article and converted it into basic text only. After that I took the text and turned it into a mock publication with design that works and is appropriate for the content and genre.");
                 });
                 $("#lucid_dream").dblclick(function() {
                     $("#lucid_dream-full").fadeIn(0);
@@ -1860,6 +2048,15 @@
                     $("#detail-dimensions").text("24\" x 18\"");
                     $("#detail-description").text("Further exploration of the human form through a multimedia approach.");
                 });
+                $("#pinhole_photography").dblclick(function() {
+                    $("#pinhole_photography-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/pinhole_photography.zip");
+                    $("#detail-name").text("Pinhole");
+                    $("#detail-project").text("Photographic Design I: Pinhole Photography");
+                    $("#detail-medium").text("Pinhole Camera / Darkroom Paper / Photograph Development Chemicals");
+                    $("#detail-dimensions").text("Varied");
+                    $("#detail-description").text("A series of photographs taken with a pinhole camera made from a Poptart box, and developed in a darkroom.");
+                });
                 $("#self_portrait_sketch_3").dblclick(function() {
                     $("#self_portrait_sketch_3-full").fadeIn(0);
                     $("#file_explorer-path").text("D:/documents/projects/2019/self_portrait_sketch_3.jpg");
@@ -1878,14 +2075,14 @@
                     $("#detail-dimensions").text("18\" x 24\"");
                     $("#detail-description").text("Skeleton project to learn anatomy in preparation for depicting the full human figure.");
                 });
-                $("#the_connection_between_art_healing_and_public_health").dblclick(function() {
-                    $("#the_connection_between_art_healing_and_public_health-full").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/projects/2019/the_connection_between_art_healing_and_public_health.pdf");
-                    $("#detail-name").text("The Connection Between Art, Healing, and Public Health");
-                    $("#detail-project").text("Typography I: Long Typesetting Publication");
-                    $("#detail-medium").text("Document");
-                    $("#detail-dimensions").text("5.5\" x 8.5\"");
-                    $("#detail-description").text("In this project I found an article and converted it into basic text only. After that I took the text and turned it into a mock publication with design that works and is appropriate for the content and genre.");
+                $("#textura_modern").dblclick(function() {
+                    $("#textura_modern-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/textura_modern.jpg");
+                    $("#detail-name").text("Textura Modern");
+                    $("#detail-project").text("Typography I: Modular Font");
+                    $("#detail-medium").text("Typeface / Poster");
+                    $("#detail-dimensions").text("11\" x 17\"");
+                    $("#detail-description").text("A modular typeface inspired by traditional blackletter type in a modern geometric style.");
                 });
                 $("#trees_trees_trees").dblclick(function() {
                     $("#trees_trees_trees-full").fadeIn(0);
@@ -1895,6 +2092,24 @@
                     $("#detail-medium").text("Digital Collage");
                     $("#detail-dimensions").text("3000px x 3000px");
                     $("#detail-description").text("Trees! Trees! Trees! WOW!: A Tree Documentary For Men.");
+                });
+                $("#type_specimen_poster").dblclick(function() {
+                    $("#type_specimen_poster-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/type_specimen_poster.jpg");
+                    $("#detail-name").text("Type Specimen Poster");
+                    $("#detail-project").text("Typography I: Type Specimen");
+                    $("#detail-medium").text("Digital Design / Poster");
+                    $("#detail-dimensions").text("16\" x 20\"");
+                    $("#detail-description").text("Type specimen poster designed to showcase Latin Modern Roman 10.");
+                });
+                $("#universal_interpretations").dblclick(function() {
+                    $("#universal_interpretations-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/universal_interpretations.zip");
+                    $("#detail-name").text("Universal Interpretations");
+                    $("#detail-project").text("Universal Interpretations");
+                    $("#detail-medium").text("Branding");
+                    $("#detail-dimensions").text("3600px x 4200px");
+                    $("#detail-description").text("Shirt print design.");
                 });
                 $("#folder-universal_interpretations").dblclick(function() {
                     $("#universal_interpretations").fadeIn(0);
@@ -1986,6 +2201,17 @@
                     $("#detail-dimensions").text("Adaptable");
                     $("#detail-description").text("Landscape of the Abandoned is a collection of unfinished assets that I never transformed into final products. The project is about short attention spans in the digital age, and how technology alters the way we perceive and interact with the physical world.");
                 });
+
+                $("#waveform").dblclick(function() {
+                    $("#waveform-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2019/waveform.zip");
+                    $("#detail-name").text("Waveform");
+                    $("#detail-project").text("Waveform");
+                    $("#detail-medium").text("Digital Design");
+                    $("#detail-dimensions").text("3000px x 3000px");
+                    $("#detail-description").text("Brand logo and shirt design.");
+                });
+
                 $("#folder-waveform").dblclick(function() {
                     $("#waveform").fadeIn(0);
                     $("#file_explorer-path").text("D:/documents/projects/2019/waveform/");
@@ -2064,48 +2290,32 @@
                 $(".2020-item").dblclick(function() {
                     $("#file_explorer-back-2020").fadeIn(0);
                 });
-                $("#folder-destroy_the_icon").dblclick(function() {
-                    $("#destroy_the_icon").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/projects/2020/destroy_the_icon/");
+                $("#clematis_viorna").dblclick(function() {
+                    $("#clematis_viorna-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/clematis_viorna.zip");
+                    $("#detail-name").text("Clematis Viorna");
+                    $("#detail-project").text("Introduction to Graphic Design: Flora");
+                    $("#detail-medium").text("Digital Illustration");
+                    $("#detail-dimensions").text("Varied");
+                    $("#detail-description").text("Introductory image-making project where a local flora was researched and reiterated into abstraction.");
                 });
-                $(".destroy_the_icon-item").dblclick(function() {
-                    $("#file_explorer-back-destroy_the_icon").fadeIn(0);
-                });
-                $("#destroy_the_icon-ego").dblclick(function() {
-                    $("#destroy_the_icon-ego-full").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/projects/2020/destroy_the_icon/ego.jpg");
-                    $("#detail-name").text("Ego");
-                    $("#detail-project").text("Digital Imaging I: Destroy the Icon");
-                    $("#detail-medium").text("Digital Image");
+                $("#david_carson_poster").dblclick(function() {
+                    $("#david_carson_poster-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/david_carson_poster.jpg");
+                    $("#detail-name").text("David Carson Poster");
+                    $("#detail-project").text("Introduction to Graphic Design: Designer Poster");
+                    $("#detail-medium").text("Poster");
                     $("#detail-dimensions").text("11\" x 17\"");
-                    $("#detail-description").text("Egotistic.");
+                    $("#detail-description").text("Introductory poster design project where a prominent graphic designer was researched and their style was used to create a poster for a theoretical lecture.");
                 });
-                $("#destroy_the_icon-kanye_loves_kanye").dblclick(function() {
-                    $("#destroy_the_icon-kanye_loves_kanye-full").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/projects/2020/destroy_the_icon/kanye-loves-kanye.jpg");
-                    $("#detail-name").text("Kanye Loves Kanye");
+                $("#destroy_the_icon").dblclick(function() {
+                    $("#destroy_the_icon-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/destroy_the_icon.zip");
+                    $("#detail-name").text("Kanye");
                     $("#detail-project").text("Digital Imaging I: Destroy the Icon");
-                    $("#detail-medium").text("Digital Image");
+                    $("#detail-medium").text("Poster Series");
                     $("#detail-dimensions").text("11\" x 17\"");
-                    $("#detail-description").text("Narcissistic.");
-                });
-                $("#destroy_the_icon-one_note").dblclick(function() {
-                    $("#destroy_the_icon-one_note-full").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/projects/2020/destroy_the_icon/one-note.jpg");
-                    $("#detail-name").text("One Note");
-                    $("#detail-project").text("Digital Imaging I: Destroy the Icon");
-                    $("#detail-medium").text("Digital Image");
-                    $("#detail-dimensions").text("11\" x 17\"");
-                    $("#detail-description").text("Gifted.");
-                });
-                $("#destroy_the_icon-sad_kanye").dblclick(function() {
-                    $("#destroy_the_icon-sad_kanye-full").fadeIn(0);
-                    $("#file_explorer-path").text("D:/documents/projects/2020/destroy_the_icon/sad-kanye.jpg");
-                    $("#detail-name").text("Sad Kanye");
-                    $("#detail-project").text("Digital Imaging I: Destroy the Icon");
-                    $("#detail-medium").text("Digital Image");
-                    $("#detail-dimensions").text("11\" x 17\"");
-                    $("#detail-description").text("Tormented.");
+                    $("#detail-description").text("Gifted. Egotistic. Narcissistic. Tormented.");
                 });
                 $("#fantasy_appliance").dblclick(function() {
                     $("#fantasy_appliance-full").fadeIn(0);
@@ -2115,6 +2325,15 @@
                     $("#detail-medium").text("Digital Illustration");
                     $("#detail-dimensions").text("17\" x 11\"");
                     $("#detail-description").text("Fantasy scene based from a normal household appliance, in this case being the water filter pitcher.");
+                });
+                $("#lysol_disinfectant_infographic").dblclick(function() {
+                    $("#lysol_disinfectant_infographic-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/lysol_disinfectant_infographic.jpg");
+                    $("#detail-name").text("Lysol Disinfectant Infographic");
+                    $("#detail-project").text("Introduction to Graphic Design: Information Design");
+                    $("#detail-medium").text("Poster");
+                    $("#detail-dimensions").text("17\" x 22\"");
+                    $("#detail-description").text("Introductory information design project where a COVID-19 paraphernalia of choice was researched, and its life cyle was portrayed in an infographic poster.");
                 });
                 $("#singularity").dblclick(function() {
                     $("#singularity-full").fadeIn(0);
@@ -2134,6 +2353,42 @@
                     $("#detail-dimensions").text("4\" x 8\"");
                     $("#detail-description").text("Freelance rack card commission for a Bed & Breakfast.");
                 });
+                $("#texture").dblclick(function() {
+                    $("#texture-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/texture.zip");
+                    $("#detail-name").text("Texture");
+                    $("#detail-project").text("Digital Imaging I: Open");
+                    $("#detail-medium").text("Zine");
+                    $("#detail-dimensions").text("8\" x 10\"");
+                    $("#detail-description").text("A conceptual exploration of space and publication using compartments of Misc as building blocks. Beginning with the black cover the imagery begins on the very edge. It spans throughout the entire book seamlessly to blur the lines of the concept of a page, and at the end you are left with less than you began. only a sliver of color on the back cover, like the remaining memories at the end of a lifetime.");
+                });
+                $("#thank_you").dblclick(function() {
+                    $("#thank_you-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/thank_you.zip");
+                    $("#detail-name").text("Thank You!");
+                    $("#detail-project").text("Digital Imaging I: Climate Stories");
+                    $("#detail-medium").text("Poster");
+                    $("#detail-dimensions").text("11\" x 17\"");
+                    $("#detail-description").text("Thank you for fucking up the planet. This piece was featured in the 2020 Climate Stories Showcase where it went under the original name of \"Reusable Bags Cost 75 Cents\". It was later featured in the 2022 Art & Design Expo where it was purchased by Appalachian State University, and now permanently remains on display as a part of the Appalachian Artists Collection.");
+                });
+                $("#the_end_of_the_world").dblclick(function() {
+                    $("#the_end_of_the_world-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/the_end_of_the_world.zip");
+                    $("#detail-name").text("The End of The World");
+                    $("#detail-project").text("Introduction to Graphic Design: Book");
+                    $("#detail-medium").text("Zine");
+                    $("#detail-dimensions").text("4\" x 6\"");
+                    $("#detail-description").text("The love story of humans and human interaction, and the despair of their separation by an unknown time of isolation: An abstract memoir from the COVID-19 pandemic");
+                });
+                $("#warp").dblclick(function() {
+                    $("#warp-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2020/warp.zip");
+                    $("#detail-name").text("Warp");
+                    $("#detail-project").text("Introduction to Graphic Design: Word");
+                    $("#detail-medium").text("Photography");
+                    $("#detail-dimensions").text("Varied");
+                    $("#detail-description").text("An introductory typography project where different materials are used to create a word as well as reinforce its meaning.");
+                });
 
                 $("#folder-2021").dblclick(function() {
                     $("#2021").fadeIn(0);
@@ -2141,6 +2396,15 @@
                 });
                 $(".2021-item").dblclick(function() {
                     $("#file_explorer-back-2021").fadeIn(0);
+                });
+                $("#a_beautiful_dissolution").dblclick(function() {
+                    $("#a_beautiful_dissolution-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2021/a_beautiful_dissolution.jpg");
+                    $("#detail-name").text("A Beautiful Dissolution");
+                    $("#detail-project").text("Screenprinting: Lost and Found");
+                    $("#detail-medium").text("Screenprint");
+                    $("#detail-dimensions").text("14\" x 11\"");
+                    $("#detail-description").text("Nature is becoming more of an abstract concept than something a majority can compromise to define.");
                 });
 
 
@@ -2357,6 +2621,18 @@
                     $("#detail-description").text("Final landscape painting from a picture of the Jackson Building taken in downtown Asheville.");
                 });
 
+
+                // $("label").on("click", function(c){
+                //     // $(".drag").offset({
+                //     //     top: c.pageY-8,
+                //     //     left: c.pageX-25
+                //     // });
+                //     $("label").css("cursor", "default");
+                //     $("label").mousemove(function(){
+                //         $("label").css("cursor", '');
+                //     });
+                //     $("cursor").mousemove
+                // });
                 
 
                 $(".file_explorer-back").click(function() {
@@ -2649,7 +2925,17 @@
                     
                 });
             });
-            
+            // function reloadCss() {
+            //     var links = document.getElementsByTagName("link");
+            //     for (var cl in links) {
+            //         var link = links[cl];
+            //         if (link.rel === "stylesheet")
+            //         link.href += "";
+            //     }
+            // };
+            // $(window).on("orientationchange", function() {
+            //     $(head).reloadCss(0);
+            // });
         </script>
     </body>
 </html>
