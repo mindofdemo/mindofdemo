@@ -566,6 +566,10 @@
                                     <img src="drive/documents/projects/2021/a_beautiful_dissolution.jpg" class="file-thumbnail">
                                     <p class="file-name">A Beautiful Dissolution</p>
                                 </div>
+                                <div id="mind_of_demo" class="file-item file-viewable 2021-item">
+                                    <img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_1.png" class="file-thumbnail">
+                                    <p class="file-name">Mind of Demo</p>
+                                </div>
                             </div>
                         </div>
 
@@ -990,6 +994,28 @@
 
 
                                 <img src="drive/documents/projects/2021/a_beautiful_dissolution.jpg" id="a_beautiful_dissolution-full" class="image-full">
+                                <div id="mind_of_demo-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="mind_of_demo_mockup_1" id="mind_of_demo_mockup_1" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_2" id="mind_of_demo_mockup_2" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_3" id="mind_of_demo_mockup_3" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_4" id="mind_of_demo_mockup_4" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_5" id="mind_of_demo_mockup_5" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_6" id="mind_of_demo_mockup_6" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_7" id="mind_of_demo_mockup_7" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_8" id="mind_of_demo_mockup_8" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_9" id="mind_of_demo_mockup_9" />
+                                        <input type="radio" name="gallery" value="mind_of_demo_mockup_10" id="mind_of_demo_mockup_10" />
+                
+                                        <label for="mind_of_demo_mockup_1"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_1.png"></label><label for="mind_of_demo_mockup_2"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_2.jpg"></label><label for="mind_of_demo_mockup_3"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_3.jpg"></label><label for="mind_of_demo_mockup_4"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_4.jpg"></label><label for="mind_of_demo_mockup_5"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_5.jpg"></label><label for="mind_of_demo_mockup_6"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_6.jpg"></label><label for="mind_of_demo_mockup_7"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_7.jpg"></label><label for="mind_of_demo_mockup_8"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_8.jpg"></label><label for="mind_of_demo_mockup_9"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_9.jpg"></label><label for="mind_of_demo_mockup_10"><img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_10.jpg"></label>
+                                    </form>
+                                </div>
 
 
                                 <img src="drive/documents/projects/2022/apple.jpg" id="apple-full" class="image-full">
@@ -2405,6 +2431,15 @@
                     $("#detail-medium").text("Screenprint");
                     $("#detail-dimensions").text("14\" x 11\"");
                     $("#detail-description").text("Nature is becoming more of an abstract concept than something a majority can compromise to define.");
+                });
+                $("#mind_of_demo").dblclick(function() {
+                    $("#mind_of_demo-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2021/mind_of_demo.zip");
+                    $("#detail-name").text("Mind of Demo");
+                    $("#detail-project").text("Graphic Design Senior Seminar: 500 Page Book");
+                    $("#detail-medium").text("Book");
+                    $("#detail-dimensions").text("6\" x 9\"");
+                    $("#detail-description").text("An abstract narrative art and poetry book delving into very personal topics while leaving enough room for individual interpretation.");
                 });
 
 
