@@ -566,6 +566,10 @@
                                     <img src="drive/documents/projects/2021/a_beautiful_dissolution.jpg" class="file-thumbnail">
                                     <p class="file-name">A Beautiful Dissolution</p>
                                 </div>
+                                <div id="exhibition_branding" class="file-item file-viewable 2021-item">
+                                    <img src="drive/documents/projects/2021/exhibition_branding/logo.png" class="file-thumbnail">
+                                    <p class="file-name">Exhibition Branding</p>
+                                </div>
                                 <div id="mind_of_demo" class="file-item file-viewable 2021-item">
                                     <img src="drive/documents/projects/2021/mind_of_demo/mind_of_demo_mockup_1.png" class="file-thumbnail">
                                     <p class="file-name">Mind of Demo</p>
@@ -994,6 +998,21 @@
 
 
                                 <img src="drive/documents/projects/2021/a_beautiful_dissolution.jpg" id="a_beautiful_dissolution-full" class="image-full">
+                                <div id="exhibition_branding-full" class="image-full">
+                                    <div id="form_button-last" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <div id="form_button-next" class="form_button button intrusion">
+                                        <!-- <img src="icons/back.svg" class="form-button-icon"> -->
+                                    </div>
+                                    <form>
+                                        <input type="radio" name="gallery" autofocus value="exhibition_branding-wall_vinyl_1" id="exhibition_branding-wall-vinyl_1" />
+                                        <input type="radio" name="gallery" value="exhibition_branding-wall-vinyl_2" id="exhibition_branding-wall-vinyl_2" />
+                                        <input type="radio" name="gallery" value="exhibition_branding-card_takeaway" id="exhibition_branding-card_takeaway" />
+                
+                                        <label for="exhibition_branding-wall-vinyl_1"><img src="drive/documents/projects/2021/exhibition_branding/wall_vinyl_1.jpg"></label><label for="exhibition_branding-wall-vinyl_2"><img src="drive/documents/projects/2021/exhibition_branding/wall_vinyl_2.jpg"></label><label for="exhibition_branding-card_takeaway"><img src="drive/documents/projects/2021/exhibition_branding/card_takeaway.jpg"></label>
+                                    </form>
+                                </div>
                                 <div id="mind_of_demo-full" class="image-full">
                                     <div id="form_button-last" class="form_button button intrusion">
                                         <!-- <img src="icons/back.svg" class="form-button-icon"> -->
@@ -2431,6 +2450,15 @@
                     $("#detail-medium").text("Screenprint");
                     $("#detail-dimensions").text("14\" x 11\"");
                     $("#detail-description").text("Nature is becoming more of an abstract concept than something a majority can compromise to define.");
+                });
+                $("#exhibition_branding").dblclick(function() {
+                    $("#exhibition_branding-full").fadeIn(0);
+                    $("#file_explorer-path").text("D:/documents/projects/2021/exhibition_branding.zip");
+                    $("#detail-name").text("Brackets");
+                    $("#detail-project").text("Graphic Design Senior Seminar: Exhibition Branding");
+                    $("#detail-medium").text("Branding");
+                    $("#detail-dimensions").text("Varied");
+                    $("#detail-description").text("Our senior seminar class was tasked with branding the senior studio exhibition. Brackets is the concept that was eventually decided on after rounds of refinement and input from the senior studio members. I have only included the pieces that I personally created as I do not want to include work from others to avoid credit that is not deserved or confusion.");
                 });
                 $("#mind_of_demo").dblclick(function() {
                     $("#mind_of_demo-full").fadeIn(0);
