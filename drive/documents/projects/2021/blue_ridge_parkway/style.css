@@ -1,0 +1,114 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+  
+  body {
+    font-weight: 300;
+    font-size: 1rem;
+    font-family: 'Paralucent', serif;
+    background-color: #393939;
+  }
+  
+
+
+  /*----------------------------------------------*/
+  /* TYPOGRAPHY */
+  /*----------------------------------------------*/
+  
+  
+  h1 {
+    font-size: 4rem;
+    color: #f4f4f4;
+    margin-bottom: 2rem;
+  }
+  
+  
+  h2 {
+    color: #6BADF4;
+    font-weight: 700;
+    font-size: 3rem;
+    font-variant: small-caps;
+    line-height: 2.7rem;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    padding-top: .5rem;
+    padding-bottom: .8rem;
+    margin-bottom: 2rem;
+  }
+  
+  h3 {
+    color: #96B8DD;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-family: 'paralucent-text';
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-weight: 300;
+    font-variant: normal;
+    text-transform: none;
+    color: #f4f4f4;
+    margin-bottom: 1rem;
+  }
+  
+  li {
+    font-size: 1rem;
+    line-height: 1.5rem ;
+  }
+  
+  
+  
+  @media only screen and (max-width: 768px) and (orientation: portrait) {
+  }
+  
+  @media only screen and (max-width: 768px) and (orientation: landscape) {
+  }
+  
+  /*----------------------------------------------*/
+  /* IMAGES */
+  /*----------------------------------------------*/
+  
+  .img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  
+  /*----------------------------------------------*/
+  /* NAVIGATION STYLES */
+  /*----------------------------------------------*/
+  
+  h1.logo {
+    /* position: relative;
+    float: left; */
+      text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #6BADF4;
+    background-color: #111;
+    height: 60px;
+    line-height: 60px;
+    width: 1000px;
+  }
+  
+  h1.logo a,
+  h1.logo a:visited {
+    padding: 0 20px;
+    color: #6BADF4;
+    text-decoration: none;
+    display: block;
+  }
+  
+  h1.logo a:hover {
+    /* background-color: orange;
+    color: white; */
+  }
+  
