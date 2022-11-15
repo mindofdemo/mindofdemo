@@ -613,7 +613,12 @@ input:nth-of-type(23):checked ~ label:nth-of-type(23),
 input:nth-of-type(24):checked ~ label:nth-of-type(24),
 input:nth-of-type(25):checked ~ label:nth-of-type(25),
 input:nth-of-type(26):checked ~ label:nth-of-type(26),
-input:nth-of-type(27):checked ~ label:nth-of-type(27) {
+input:nth-of-type(27):checked ~ label:nth-of-type(27),
+input:nth-of-type(28):checked ~ label:nth-of-type(28),
+input:nth-of-type(29):checked ~ label:nth-of-type(29),
+input:nth-of-type(30):checked ~ label:nth-of-type(30),
+input:nth-of-type(31):checked ~ label:nth-of-type(31),
+input:nth-of-type(32):checked ~ label:nth-of-type(32) {
    z-index: 0;
 }
 
@@ -697,6 +702,21 @@ input:nth-of-type(26):checked ~ label {
 }
 input:nth-of-type(27):checked ~ label {
 	transform: translate3d(-2600%, 0, 0);
+}
+input:nth-of-type(28):checked ~ label {
+	transform: translate3d(-2700%, 0, 0);
+}
+input:nth-of-type(29):checked ~ label {
+	transform: translate3d(-2800%, 0, 0);
+}
+input:nth-of-type(30):checked ~ label {
+	transform: translate3d(-2900%, 0, 0);
+}
+input:nth-of-type(31):checked ~ label {
+	transform: translate3d(-3000%, 0, 0);
+}
+input:nth-of-type(32):checked ~ label {
+	transform: translate3d(-3100%, 0, 0);
 }
 
 
